@@ -1,3 +1,17 @@
 Como Testes A/B Funcionam e Como Usá-los com Google Analytics
 =============================================================
 <small>Autor original: Paula Borowska<br/>[link para o artigo original](http://designmodo.com/ab-testing-google-analytics/)</small>
+
+[Teste A/B](http://designmodo.com/ab-testing/) é um termo utilizado na comparação de um design em relação a outro, no sentido de maximizar as taxas de conversão. Esse método foi popularizado pelo mundo do marketing para uso com e-mails, propaganda e panfletos, para averiguar qual modelo traria melhores retornos. Você pode ter mais de duas variações e testar qualquer coisa, do tamanho das fontes utilizados no texto às cores de plano de fundo e imagens. Só depende de você.
+
+## Como Isso Funciona?
+Testes A/B trabalham a partir de estatísticas. Por exemplo, em um teste A/B, poderíamos ter 100 pessoas direcionadas para uma página A enquanto outras 100 pessoas seria direcionadas para uma página B, na tentativa de descobrir qual cor de botão, azul ou vermelho, dentro do design em questão, seria a melhor escolha. Se somente 30% clicassem no botão da página A (vermelho) enquanto 45% clicassem no botão da página B (azul), então, poderíamos afirmar que o botão azul é uma escolhar melhor que o botão vermelho.
+
+**Compreender os resultados é bem simples**. Como obter resultados significantes que é complicado. Para os resultados finais serem válidos, o tamanho da amostra deve ser grande suficiente. O que *significante* quer dizer? Simplesmente significa que o tamanho da amostra - número de visitantes - é grande o suficiente para que os resultados sejam legítimos e não um produto da sorte (ou azar, se preferir assim).
+
+Para dar uma ideia básica, se você quer que sua taxa de conversão seja alta, a sua amostra deve ser proporcionalmente grande. Logo, se você deseja que a taxa de conversão de um botão seja de 10%, você precisará de cerca de 600 visitantes para que os resultados sejam significativos. Se você quer que sua conversão seja de significantes 30%, você precisará de, pelo menos, 1400 visitantes. Isso, de forma alguma, é uma regra, mas passa a ideia geral. Quão mais demorar para você obter essas visitas e cliques, mais demorado será para você obter resultados válidos. Acredito que isso seja lógico, porém, percebi que esses valores acabam negligenciados. Se o seu site possui bastante tráfego, tal qual uma [Amazon](http://www.amazon.com), os resultados serão mais rápidos de atingir. Se seu site tem, talvez, 50 visitas por dias, o processo demorará um pouco mais.
+
+### Pegue leve
+Testes A/B é um artifício enviado pelos deuses quando queremos otimizar campanhas, seja para uma página de destino (landing page) ou uma campanha de e-mail. Entretanto, há algumas coisas que você precisa estar ciente. Primeiro, quanto mais variações você tiver, mais tempo levará para você ver os resultados. É aceitável tentar até 4 variaões de uma página, mas tenha em mente que o resultado pode levar 4 vezes mais para atingir resultados significantes. Além disso, você não deveria testar grandes variações. Não teste um redesenho muito grande, buscando pequenas modificações e somente em um elemento por vez. Seria difícil determinar o elemento que causou a mudanção de conversão se você está mudando demais as coisas.
+
+## Como Realizar Testes A/B com o Google Analytics
