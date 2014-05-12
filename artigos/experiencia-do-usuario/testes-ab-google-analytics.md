@@ -1,6 +1,7 @@
 Como Testes A/B Funcionam e Como Usá-los com Google Analytics
 =============================================================
-<small>Autor original: Paula Borowska<br/>[link para o artigo original](http://designmodo.com/ab-testing-google-analytics/)</small>
+Créditos
+<small>Autor original: [Paula Borowska](https://twitter.com/paulaborowska)<br/>[Artigo original](http://designmodo.com/ab-testing-google-analytics/)</small>
 
 [Teste A/B](http://designmodo.com/ab-testing/) é um termo utilizado para indicar a comparação de um design em relação a outro, no sentido de maximizar as taxas de conversão. Esse método foi popularizado pelo mundo do marketing para uso com e-mails, propaganda e panfletos, para averiguar qual modelo traria melhores retornos. Você pode ter mais de duas variações e testar qualquer coisa, do tamanho das fontes utilizados no texto às cores de plano de fundo e imagens. Só depende de você.
 
@@ -58,7 +59,7 @@ Cada um desses pedaços de código são especificos para cada teste. Siga as ins
 
 ![Posicionamento do código do experimento](http://designmodo.com/wp-content/uploads/2014/05/code.jpg "Posicionamento do código do experimento")
 
-Assim que você receber a confirmação que o Google Analytics está conectado com o código, você ´será capaz de iniciar o experimento.
+Assim que você receber a confirmação que o Google Analytics está conectado com o código, você será capaz de iniciar o experimento.
 
 ### Obtendo os resultados
 Tenha um pouco de paciência, mas, no geral, você será capaz de ver os resultados tão logo que o pessoal começar a visitar as páginas (Pode ser que você tenha de esperar **até 24h para o Google Analytics** estar completamente conectado ao seu experimento). Verifique como os teste está indo. Monitorar com certa frequência ajudará a verificar qualquer problemas técnicos durante o teste. Se uma página está com resultados excelente e a outra não está lá essas coisas, pode ser que alguma coisa tenha saído errado durante a implementação do teste. Se ambas as páginas está se saindo extremamente bem, os objetivos podem ter sido mal escolhidos. Sempre monitore os resultados e verá o quanto será necessário esperar para obter resultados significativos.
