@@ -1,7 +1,7 @@
 Tenha um Código JavaScript Front-end Garantido
 ==============================================
 Créditos
-<small>Autor original: [Nicholas Perriault](https://nicolas.perriault.net)<br/>[Artigo Original](https://nicolas.perriault.net/code/2013/get-your-frontend-javascript-code-covered/)<br/>[Licença](http://creativecommons.org/licenses/by-sa/3.0/)</small>
+<small>Autor original: [Nicholas Perriault](https://nicolas.perriault.net)<br/>[Artigo Original](https://nicolas.perriault.net/code/2013/get-your-frontend-javascript-code-covered/)&mdash;[Licença](http://creativecommons.org/licenses/by-sa/3.0/)</small>
 
 **Você, finalmente, está [testando o seu código JavaScript Front-end, hein](https://nicolas.perriault.net/code/2013/testing-frontend-javascript-code-using-mocha-chai-and-sinon/)? Ótimo! Quanto mais testes você escrever, mais confiante você estará em seu código... mas, quanto precisamente? É nessa questão que a [cobertura de código](http://en.wikipedia.org/wiki/Code_coverage)[1] pode ajudar.**
 
@@ -109,11 +109,11 @@ Se rodarmos os testes, teremos algo mais ou menos assim:
 
 Como você pode ver, o relatório da parte debaixo destaca que nós não chegamos a testar o caso onde uma exceção (`Error`) é lançada , no caso do nome alvo não existir. Nós fomos informados disso, nada mais, nada menos. Nós sabemos que está faltando algo aqui. Isso não é legal? Pelo menos eu acho!
 
-Lembre que a cobertura de código [apenas trará números](http://codebetter.com/karlseguin/2008/12/09/code-coverage-use-it-wisely/) e ~dados crus. Ela não trará provas cabais que toda a *lógica do seu código* está coberta. Se você me perguntar, as melhores observações que você pode obter sobre a lógica do seu código e a implementação do mesmo são aquelas advindas das sessões de [programação em par](http://www.extremeprogramming.org/rules/pair.html) e das [revisões de código](http://alexgaynor.net/2013/sep/26/effective-code-review/) &mdash; mas isso já é outra história.
+Lembre que a cobertura de código [apenas trará números](http://codebetter.com/karlseguin/2008/12/09/code-coverage-use-it-wisely/) e dados crus. Ela não trará provas cabais que toda a *lógica do seu código* está coberta. Se você me perguntar, as melhores observações que você pode obter sobre a lógica do seu código e a implementação do mesmo são aquelas advindas das sessões de [programação em par](http://www.extremeprogramming.org/rules/pair.html) e das [revisões de código](http://alexgaynor.net/2013/sep/26/effective-code-review/) &mdash; mas isso já é outra história.
 
 **Então, cobertura de código é a salvadora da pátria? Não. Ela é útil? Definitivamente. Bons testes**
 
 -----
 
-[1] Não há versão em português do artigo em questão.
+[1] Não há versão em português do artigo em questão.<br/>
 [2] Esse exemplo foi usado em um artigo anterior pelo autor original. Em breve será disponibilizada uma tradução do mesmo.
