@@ -24,7 +24,7 @@ Seu uso é muito simples. Adicionar suporte ao Blanket ao seu conjunto de testes
 
 Arquivos fonte: [blanket.js](https://raw.github.com/alex-seville/blanket/master/dist/qunit/blanket.min.js), [mocha-blanket.js](https://raw.github.com/alex-seville/blanket/master/src/adapters/mocha-blanket.js)
 
-Como exemplo, vamos usar o simples código da "vaca" (`Cow`, no código abaixo):
+Como exemplo, vamos usar o simples código da "vaca" (`Cow`, no código abaixo)[2]:
 
 ```javascript
 // cow.js
@@ -46,7 +46,7 @@ Como exemplo, vamos usar o simples código da "vaca" (`Cow`, no código abaixo):
 })(this);
 ```
 
-E o conjuto de testes, usando Mocha e [Chai](http://chaijs.com/)[2]
+E o conjuto de testes, usando Mocha e [Chai](http://chaijs.com/)
 
 ```javascript
 var expect = chai.expect;
