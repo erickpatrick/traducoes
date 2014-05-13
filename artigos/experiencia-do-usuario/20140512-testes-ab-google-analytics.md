@@ -1,6 +1,6 @@
 Como Testes A/B Funcionam e Como Usá-los com Google Analytics
 =============================================================
-Créditos
+Créditos<br/>
 <small>Autor original: [Paula Borowska](https://twitter.com/paulaborowska)<br/>[Artigo original](http://designmodo.com/ab-testing-google-analytics/)</small>
 
 [Teste A/B](http://designmodo.com/ab-testing/) é um termo utilizado para indicar a comparação de um design em relação a outro, no sentido de maximizar as taxas de conversão. Esse método foi popularizado pelo mundo do marketing para uso com e-mails, propaganda e panfletos, para averiguar qual modelo traria melhores retornos. Você pode ter mais de duas variações e testar qualquer coisa, do tamanho das fontes utilizados no texto às cores de plano de fundo e imagens. Só depende de você.
