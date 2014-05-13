@@ -1,6 +1,6 @@
 Tenha um Código JavaScript Front-end Garantido
 ==============================================
-Créditos
+Créditos<br/>
 <small>Autor original: [Nicholas Perriault](https://nicolas.perriault.net)<br/>[Artigo Original](https://nicolas.perriault.net/code/2013/get-your-frontend-javascript-code-covered/)&mdash;[Licença](http://creativecommons.org/licenses/by-sa/3.0/)</small>
 
 **Você, finalmente, está [testando o seu código JavaScript Front-end, hein](https://nicolas.perriault.net/code/2013/testing-frontend-javascript-code-using-mocha-chai-and-sinon/)? Ótimo! Quanto mais testes você escrever, mais confiante você estará em seu código... mas, quanto precisamente? É nessa questão que a [cobertura de código](http://en.wikipedia.org/wiki/Code_coverage)[1] pode ajudar.**
