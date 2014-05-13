@@ -116,4 +116,4 @@ Lembre que a cobertura de código [apenas trará números](http://codebetter.com
 -----
 
 [1] Não há versão em português do artigo em questão.<br/>
-[2] Esse exemplo foi usado em um artigo anterior pelo autor original. Em breve será disponibilizada uma tradução do mesmo.
+[2] Esse exemplo foi usado em um artigo anterior pelo autor original. [Link para a tradução](https://github.com/erickpatrick/traducoes/blob/master/artigos/javascript/20140513-testando-codigo-javascript-frontend-usando-mocha-chai-sinon.md)
