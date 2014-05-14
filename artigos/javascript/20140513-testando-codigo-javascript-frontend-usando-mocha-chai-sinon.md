@@ -38,7 +38,7 @@ Nada demais, mas nós queremos testar as unidades dela.
 Tanto Mocha quanto Chai podem ser usadas em ambientes Node quanto em navegadores; no segundo caso, você terá de prepará uma página HTML para os testes e usar versões especiais dessas bibliotecas:
 
 - para Mocha: [instruções de instalação](http://visionmedia.github.io/mocha/#browser-support), [mocha.css](https://github.com/visionmedia/mocha/raw/master/mocha.css) e [mocha.js](https://github.com/visionmedia/mocha/raw/master/mocha.js)
-- para Chai: [instruções de instalação](http://chaijs.com/guide/installation/), [chai.js]http://chaijs.com/chai.js)
+- para Chai: [instruções de instalação](http://chaijs.com/guide/installation/), [chai.js](http://chaijs.com/chai.js)
 
 Aconselho salvar esses arquivos em uma subpasta chamada `vendor`. Agora, criemos o arquivo HTML para testar nossa biblioteca:
 
