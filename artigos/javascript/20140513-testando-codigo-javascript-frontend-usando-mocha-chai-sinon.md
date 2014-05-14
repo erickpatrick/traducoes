@@ -168,3 +168,89 @@ Convenientemente, Mocha ressaltará qualquer operação longa suspeita com *pilu
 ![Arquivo HTML de Testes mostrando testes passantes e pílulas vermelhas indicadoras](https://nicolas.perriault.net/static/code/2013/cow-async-tests-ok.png "Arquivo HTML de Testes mostrando testes passantes e pílulas vermelhas indicadoras")
 
 ## Using Sinon para simular o ambiente
+Quando você realiza testes unitários, você não quer depender de coisas externas ao código unitário sob teste. E, enquanto é boa prática evitar que suas funções tenham efeitos colaterais, no desenvolvimento para Web, isso nem sempre é uma tarefa fácil (pense na DOM, Ajax, APIs nativas dos navegadores, etc).
+
+[Sinon](http://sinonjs.org/) é uma excelente biblioteca JavaScript para simular e imitar as dependências externas e manter controle sobre os efeitos colaterais delas.
+
+Como um exemplo, imaginemos que nosso método `Cow#greets` não retornasse uma *string* mas a logasse, diretamente, no console do navegador:
+
+```javascript
+// cow.js
+(function(exports) {
+  "use strict";
+
+  function Cow(name) {
+    this.name = name || "Anon cow";
+  }
+  exports.Cow = Cow;
+
+  Cow.prototype = {
+    greets: function(target) {
+      if (!target)
+        return console.error("missing target");
+      console.log(this.name + " greets " + target);
+    }
+  };
+})(this);
+```
+
+Como criar um teste unitário para isso? Bem, a Sinan vem ao nosso resgate! Primeiro, adicionemos uma chamada para o [script da Sinon](http://sinonjs.org/releases/sinon-1.7.1.js) em nosso arquivo de testes HTML:
+
+```html
+<!-- ... -->
+<script src="vendor/mocha.js"></script>
+<script src="vendor/chai.js"></script>
+<script src="vendor/sinon-1.7.1.js"></script>
+```
+
+Nós iremos simular os métodos `log` e `error` do objeto `console` para que possamos checar se eles são chamados e o que é passado para eles:
+
+```javascript
+var expect = chai.expect;
+
+describe("Cow", function() {
+  var sandbox;
+
+  beforeEach(function() {
+    // create um ambiente 'caixa de area' (sandbox)
+    sandbox = sinon.sandbox.create();
+
+    // simular alguns métodos do objeto console
+    sandbox.stub(window.console, "log");
+    sandbox.stub(window.console, "error").
+  });
+
+  afterEach(function() {
+    // restauro o ambiente para o estado inicial
+    sandbox.restore();
+  });
+
+  // ...
+
+  describe("#greets", function() {
+    it("deveria logar um erro no console, se nenhum alvo for passado", function() {
+      (new Cow()).greets();
+
+      sinon.assert.notCalled(console.log);
+      sinon.assert.calledOnce(console.error);
+      sinon.assert.calledWithExactly(console.error, "missing target");
+      });
+
+    it("deveria logar a saudação no console", function() {
+      var greetings = (new Cow("Kate")).greets("Baby");
+
+      sinon.assert.notCalled(console.error);
+      sinon.assert.calledOnce(console.log);
+      sinon.assert.calledWithExactly(console.log, "Kate greets Baby");
+      });
+  });
+});
+```
+
+Há diversos pontos a se levantar, aqui:
+- `beforeEach` e `afterEach` são parte da API Mocha e permitem definir operações de preparo e finalização para cada teste;
+- Sinon provê uma *caixa de areia* (sandboxing), basicamente, permitindo definir e anexar um conjunto de objetos simulados que você será capaz de restaura em um algum momento;
+- Quando simulados, as funções verdadeiras **não são chamadas**, logo, obviamente, nada será impresso no console do navegador;
+- Sinon vem com sua própria biblioteca de asserções, por isso, a chamada à `sinon.assert`; existe um plugin [sinon-chai](https://github.com/domenic/sinon-chai) para Chai, o qual você pode querer dar uma olhada.
+
+**Há inúmeros outros aspectos bacanas de [Mocha](http://visionmedia.github.io/mocha/), [Chai](http://chaijs.com/) e [Sinon](http://sinonjs.org/), que não daria para cobrir nesse post, mas espero ter aberto seu apetite investigativo para ir pesquisar mais sobre eles. Bons testes!**
