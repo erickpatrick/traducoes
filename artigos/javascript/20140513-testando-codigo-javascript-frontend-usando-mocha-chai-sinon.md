@@ -143,3 +143,28 @@ Cow.prototype = {
 };
 ```
 
+Nós também precisamos testar essa daqui, e Mocha nos ajuda com sua função *callback* opcional, `done`, para esse tipo de testes:
+
+```javascript
+describe("$lateGreets", function() {
+  it("deveria lançar um erro se nenhum alvo for passado", function(done) {
+    (new Cow()).lateGreets(null, function(err, greetings) {
+      expect(err).to.be.an.instanceof(Error);
+      done();
+    });
+  });
+
+  it("deveria saudar o alvo passado após um segundo", function(done) {
+    (new Cow("Kate")).lateGreets("Baby", funcion(err, greetings) {
+      expect(greetings).to.equal.("Kate greets Baby");
+      done();
+    });
+  });
+});
+```
+
+Convenientemente, Mocha ressaltará qualquer operação longa suspeita com *pilulas vermelhas*, no caso daquilo não ser, realmente, esperado:
+
+![Arquivo HTML de Testes mostrando testes passantes e pílulas vermelhas indicadoras](https://nicolas.perriault.net/static/code/2013/cow-async-tests-ok.png "Arquivo HTML de Testes mostrando testes passantes e pílulas vermelhas indicadoras")
+
+## Using Sinon para simular o ambiente
