@@ -64,7 +64,7 @@ Aconselho salvar esses arquivos em uma subpasta chamada `vendor`. Agora, criemos
 </html>
 ```
 
-Atente que usaremos à [API BDD de expectativas da Chai](http://chaijs.com/api/bdd/), por isso a chamada `mocha.setup('bdd');` acima.
+Atente que usaremos a [API BDD de expectativas da Chai](http://chaijs.com/api/bdd/), por isso a chamada `mocha.setup('bdd');` acima.
 
 Agora, vamos escrever um conjunto simples de teste para o construtor do nosso objeto `Cow` em `cow_test.js`:
 
