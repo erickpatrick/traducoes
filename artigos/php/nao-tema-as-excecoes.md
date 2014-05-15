@@ -56,3 +56,25 @@ APP::error(function(\Illuminate\Database\Eloquent\ModelNotFoundException $e) {
 Se você não usa Laravel então capture a exceção usando `try-catch` quando você estiver carregando sua aplicação.
 
 ## Vantagens em usar exceções
+
+**Uma exceção não passa de algo não esperado**. Seja destemido e lance uma `Exception` toda vez que você achar que algo não esperado pode acontecer em uma função, método ou mesmo a nível de aplicação e que deva parar a execução.
+
+Uma das grandes vantagens de usar `Exceptions` ao invés de usar o tradicional 'redirect', o par `die/exit` ou mesmo o `die(var_dump())` é que você separa o código do seu domínio da camada de transporte (ex: requisições HTTP).
+
+Por exemplo, você usa um redirecionamente HTTP quando a validação do formulário falha. E se o usuário final não está usando um navegador? Se ele está usando um *app mobile* que usa a mesma lógica do domínio através de uma API? E se você está realizando testes unitários? E se estiver rodando um trabalho em plano de fundo através da linha de comando? Nada de requisições HTTP, como fica?
+
+Você está certo, se tiver pensado em `Exception`. Crie uma classe `ValidationException` que estende `\Exception` (você tem usado `namespace`, não tem?). Toda vez que uma validação falhar:
+
+```php
+throw new ValidationException('Olá, você não preencheu o formulário corretamente. Tente novamente');
+```
+
+Agora, capture essa exceção:
+- Em caso de uma requisção HTTP normal, realize um `redirect`;
+- Em caso de API, sete um código de estado, talvez munido de um mensagem em JSON;
+- Em caso de linha de comando, apenas imprima a mensagem de erro.
+
+No exemplo acima, você pode perceber como deixamos nosso código menos repetitivo (Lembre-se: Não se repita&ndashDRY). Há inúmeras outras vantagens que não discutirei agora. Por favor, [verifique esse artigo](http://docs.oracle.com/javase/tutorial/essential/exceptions/advantages.html), se não estiver convencido.
+
+## Por fim
+Eu só peço uma coisa: Faça um favor a você mesmo usando das melhores práticas da orientação a objeto onde melhor servir (como utilizar `Exception`). Você não se arrependerá. Nossa comunidade PHP está tanto atrasada quanto a isso, mas a revolução está a caminho.
