@@ -55,4 +55,4 @@ APP::error(function(\Illuminate\Database\Eloquent\ModelNotFoundException $e) {
 
 Se você não usa Laravel então capture a exceção usando `try-catch` quando você estiver carregando sua aplicação.
 
-## Vantagens em Usar Exceções
+## Vantagens em usar exceções
