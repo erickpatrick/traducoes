@@ -43,7 +43,7 @@ Antes de começarmos, nós precisamos fazer pequenas modificações na configura
 
 Vá em frente e crie o arquivo com o conteúdo a seguir:
 
-```yml
+```yaml
 formatter.name: pretty
 suites:
   todo_suite:
