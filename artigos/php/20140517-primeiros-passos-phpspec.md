@@ -47,7 +47,7 @@ Vá em frente e crie o arquivo com o conteúdo a seguir:
 formatter.name: pretty
 suites:
   todo_suite:
-    namespace: PEtersuhm\Todo
+    namespace: Petersuhm\Todo
 ```
 
 Há inúmeras outras opções de configuração. Você pode ler mais sobre elas na [documentação](http://phpspec.net/cookbook/configuration.html).
