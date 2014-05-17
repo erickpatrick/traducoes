@@ -37,3 +37,38 @@ $ vendor/bin/phpspec run
 0 examples
 0ms
 ```
+
+## Configuração
+Antes de começarmos, nós precisamos fazer pequenas modificações na configuração. Quando phpspec rodar, ele procurará por um arquivo chamado `phpspec.yml`. Já que usaremos `namespace` em nossos códigos, precisamos fazer com que o phpspec saiba disso. Aproveitaremos, também, para garantir que nossas especificações apareçam de forma fácil e bonita de se ver quando mandarmos executá-las.
+
+Vá em frente e crie o arquivo com o conteúdo a seguir:
+
+```yml
+formatter.name: pretty
+suites:
+  todo_suite:
+    namespace: PEtersuhm\Todo
+```
+
+Há inúmeras outras opções de configuração. Você pode ler mais sobre elas na [documentação](http://phpspec.net/cookbook/configuration.html).
+
+Outra coisa que precisamos fazer, é dizer ao Composer para carregar automaticamente nosso código. phpspec usará o autoarregador do Composer, logo, isso é obrigatório que nossas especificações executem.
+
+Adicione um elemento `autoload` ao arquivo `composer.json` que o Composer criou para você:
+
+```json
+{
+  "require": {
+    "phpspec/phpspec": "2.0.*@dev"
+  },
+  "autoload": {
+    "psr-0": {
+      "Petersuhm\\Todo": "src"
+    }
+  }
+}
+```
+
+Executar o comando `composer dump-autoload` atualizará o autocarregador após essa mudança.
+
+## Nossa Primeira Especificação
