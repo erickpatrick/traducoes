@@ -209,3 +209,94 @@ function it_adds_a_task_to_the_collection(Task $task, Task $anotherTask)
 Ao rodar phpspec, tudo estará legal.
 
 ### Implementando a Interface `Countable`
+Querer saber quantas taremos existem em uma coleção é uma excelente razão para usaarmos uma das [interfaces](http://www.php.net/manual/pt_BR/spl.interfaces.php) da [Bbiblioteca Padrão do PHP](http://www.php.net/manual/pt_BR/book.spl.php) (do inglês, Standard PHP Library, SPL), mais especificamente a `Countable` interface.
+
+Mais cedo, nós usamos o combinador `shouldHaveType()`, que é um combinador de *tipo*. Ele usa o comparador `instanceof` do PHP para validar se um objeto é uma instância de uma dada classe. Há quatro combinadores de tipo, os quais fazem a mesma coisa. Um deles é o `shouldImplement()`, que é perfeito para nosso objetivo, então vamos usá-lo em nosso exemplo:
+
+```php
+function it_is_countable()
+{
+  $this->shouldImplement('Countable');
+}
+```
+
+Você percebe o quão bonito e simple é de ler? Vamos executar o exemplo e deixar que o phpspec nos guie:
+
+```bash
+$ vendor/bin/phpspec run
+
+      Petersuhm\Todo\TaskCollection
+  25 ✘ is countable
+      expected an instance of Countable, but got [obj:Petersuhm\Todo\TaskCollection].
+```
+
+Certo, então. Nosso código não é uma instância de `Countable`, uma vez que não a implementamos ainda. Vamos atualizar o código da nossa class `TaskCollection`:
+
+```php
+  class TaskCollection implements \Countable
+```
+
+Nossos testes não executarão, já que a interface `Countable` tem um método abstrato, `count()`, que nós devemos implementar. Um método vazia funcionará, por hora:
+
+```php
+public function count()
+{
+  // ...
+}
+```
+
+E voltamos ao verde. Nesse momento, nosso método `count()` não faz muita coisa e, na verdade, é bem inútil. Escrevamos uma especificação para o comportamente que desejamos que ele tenha. Primeiro, sem tarefas, é esperado retornar zero de nossa função:
+
+```php
+function it_counts_elements_of_the_collection()
+{
+  $this->count()->shouldReturn(0);
+}
+```
+
+It returns `null`, não `0`. Para fazermos o teste ficar verde, vamos conserta-la ao modo TDD/BDD:
+
+```php
+public function count()
+{
+  return 0;
+}
+```
+
+Agora, estamos verde e tudo está bem, exceto que esse não é o provável comportamento que queremos. Ao invés disso, expandamos nossa especificação e adicionemos algo à array `$tasks`:
+
+```php
+function it_counts_elements_of_the_collection()
+{
+  $this->count()->shouldReturn(0);
+
+  $this->tasks = ['foo'];
+  $this->count()->shouldReturn(1);
+}
+```
+
+Obviamente, nosso código ainda retorna `0` e nós temos um passo em vermelho. Ajustar isso não é muito difícil e nossa class `TaskCollection` deve parecer com isso, agora:
+
+```php
+<?php
+
+namespace Petersuhm\Todo;
+
+class TaskCollection implements \Countable {
+  public $tasks;
+
+  public function add(Task $task)
+  {
+    $this->tasks[] = $task;
+  }
+
+  public function count()
+  {
+    return count($this->tasks);
+  }
+}
+```
+
+Agora, nós temos um teste verde e nosso método `count()` funciona. Que legal!
+
+## Expectativas e Promessas
