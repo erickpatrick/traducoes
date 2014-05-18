@@ -539,3 +539,32 @@ function it_checks_whether_it_has_any_tasks(TaskCollection $tasks)
 Bem legal!
 
 ## Conclusão
+Todas as nossas especificações estão verdes e veja como elas documentam de forma legal nosso código!
+
+```bash
+        Petersuhm\Todo\TaskCollection
+
+    10 ✔ is initializable
+    15 ✔ adds a task to the collection
+    24 ✔ is countable
+    29 ✔ counts elements of the collection
+
+        Petersuhm\Todo\Task
+
+    10 ✔ is initializable
+
+        Petersuhm\Todo\TodoList
+
+    11 ✔ is initializable
+    16 ✔ adds a task to the list
+    24 ✔ checks whether it has any tasks
+
+
+3 specs
+8 examples (8 passed)
+16ms
+```
+
+Nós descrevemos de forma efetiva e alcançamos o comportamento desejado de nosso código. Sem mencionar que, uma vez que nosso código está coberto por nossas especificações, a refatoração do mesmo não será uma experiência pavorosa.
+
+Por ter seguido esse tutorial, espero ter inspirado você a dar uma chance ao phpspec. Ele é mais que uma ferramenta de testes - é uma ferramenta de design. Uma vez acostumado a usar o phpspec (e suas maravilhosas ferramentas de geração de código), você terá problemas em largar dele novamente! As pessoas, frequentemente, reclamam que seguir o caminho TDD ou BDD diminui a velocidade deles. Depois de incorporar o phpspec no meu fluxo de trabalho, eu sinto exatamente o contrário - minha produtividade melhorou bastante. Sem falar que meu código está muito mais sólido!
