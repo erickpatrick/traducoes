@@ -72,3 +72,52 @@ Adicione um elemento `autoload` ao arquivo `composer.json` que o Composer criou 
 Executar o comando `composer dump-autoload` atualizará o autocarregador após essa mudança.
 
 ## Nossa Primeira Especificação
+Agora, que já estamos prontos, é hora de escrever nossa primeira especificação. Começaremos descrevendo a classe chamada `TaskCollection`. Faremos com que phpspec gere uma classe de especificação para nós, usando o comendo `describe` (ou a versão abreviada, `desc`).
+
+```bash
+$ vendor/bin/phpspec describe "Petersuhm\Todo\TaskCollection"
+$ vendo/bin/phpspec run
+Do you want me to create 'Petersuhm\Todo\TaskCollection' for you? y
+```
+
+O que acabou de acontecer aqui? Primeiro, nós pedimos para o phpspec criar a classe `TaskCollection`. Segundo, nós executamos o conjunto de especificações e, automagicamente, o phpspec ofereceu para criar a classe `TaskCollection` para nós. Legal, não é?
+
+Vá em frente, rode o conjunto novamente e verá que já temos um exemplo em nossas especificações (logo veremos o que é um exemplo):
+
+```bash
+$ vendor/bin/phpspec run
+    Petersuhm\Todo\TaskCollection
+  10 ✔ is initializable
+
+1 specs
+1 examples (1 passed)
+7ms
+```
+
+Desse retorno, podemos ver que a classe `TaskCollection` é *inicializável*. O que isso significa? Veja o arquivo de especificação que o phpspec criou e tudo ficará claro:
+
+```php
+<?php
+
+namespace spec\Petersuhm\Todo;
+
+use PhpSpec\ObjectBehavior;
+use Prophecy\Argument;
+
+class TaskCollectionSpec extends ObjectBehavior
+{
+  function it_is_initializable()
+  {
+    $this->shouldHaveType('Petersuhm\Todo\TaskCollection');
+  }
+}
+```
+
+A frase 'is initializable' é detivada da função `it_is_initializable()`, a qual o phpspec adiciona à classe `TaskCollectionSpec`. Essa função é o que nós chamamos de *exemplo* (*example*, no retorno anterior). Nesse exemplo em particular, nós temos o que podemos chamar de combinador, chamado de `shouldHaveType()`, que verifica o tipo da nossa classe `TaskCollection`. Se você mudar o parâmetro passado para essa função para qualquer outra coisa e roda a especificação novamente, verá que ela falhará. Antes de entender isso completamente, preciamos descobrir a que, precisamente, se refere a variável `$this` em nossa especificação.
+
+## O Que É `$this`?
+Obviamente, `$this` refere-se à instância da classe `TaskCollectionSpec`,  uma vez que isso, nada mais é, que um código PHP comum. Mas, com phpspec, você tem de tratar o `$this` de forma diferente com o que está acostumado, já que, por baixo dos panos, ele se refere, na verdade, ao objeto em teste, que, nesse caso, é a classe `TaskCollection`. Esse comportamente é herdado da classe `ObjectBehavior`, que garante que as chamadas às funções sejam redirecionadas (através de um Proxy) à classe verdadeira. Isso significa que `AlgumaClasseSpec` redirecionará as chamadas dos métodos para uma instância de `AlgumaClasse`. phpspec envolverá essas chamadas de métodos para garantir que os seus resultados sejam rodados a algum combinador como o que você acabou de ver.
+
+Você não precisa entender perfeitamente isso para usar o phpspec, apenas se lembre que a `$this`, na verdade, refere-se ao objeto sob teste.
+
+## Construindo Nossa Coleção de Tarefas
