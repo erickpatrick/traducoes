@@ -314,3 +314,96 @@ Isso é incrível. Por trás, phpspec usa a biblioteca [Prophecy](https://github
  ```
 
 ### Adicionando Tarefas
+O primeiro exemplo que adicionaremos é um para adicionar tarefas. Nós criaremos um método `addTask()`, que nada mais faz que adicionar uma tarefa à nossa coleção. Ele simplesmente direciona a chamada ao método `add()` da coleção, logo, aqui é um lugar perfeito para usar uma Expectativa. Nós não queremos invocar o método `add()` de verdade, nós só queremos garantir que ele tente fazê-lo. Além do mais, nós queremos garantir que ele seja chamado apenas uma vez. Veja como podemos faz isso com phpspec:
+
+```php
+<?php
+
+namespace spec\Petersuhm\Todo;
+
+use Phpspec\ObjectBehavior;
+use Prophecy\Argument;
+use Petersuhm\Todo\TaskCollection;
+use Petersuhm\Todo\Task;
+
+class TodoListSpec extends ObjectBehavior
+{
+  function it_is_initializable()
+  {
+    $this->shouldHaveType('Petersuhm\Todo\TodoList');
+  }
+
+  function it_adds_a_task_to_the_list(TaskCollection $tasks, Task $taks)
+  {
+    $tasks->add($task)->shouldBeCalledTimes(1);
+    $this->tasks = $tasks;
+
+    $this->addTask($task);
+  }
+}
+```
+
+Primeiro, fazemos com phpspec proveja dois colaboradores que precisamos: uma coleção de tarefas e uma tarefa. Depois disso, estabelecemos uma expectativa no colaborador da coleção de tarefas que, basicamente, diz: "O método `add()` deverá ser chamado, exatamente, 1 vez com a variável `$task` como parâmetro". É assim que preparamos nosso colaborador, que agora é um *mock*, antes de atribuí-lo à propriedade `$tasks` de `TodoList`. Finalmente, nós tentamos invocar o método `addTask()` de verdade.
+
+Certo, o que o phpspec tem a dizer sobre isso:
+
+```bash
+$ vendor/bin/phpspec run
+
+        Petersuhm/Todo/TodoList
+  17  ! adds a task to the list
+        property tasks not found.
+```
+
+A propriedade `$tasks` não existe. Ajustar esse problema é bem fácil:
+
+```php
+<?phpspec
+
+namespace Petersuhm\Todo;
+
+class TodoList
+{
+  public $tasks;
+}
+```
+
+Tente novamente e deixe o phpspec ser nosso guia:
+
+```bash
+$ vendor/bin/phpspec run
+Do you want me to create 'Petersuhm\Todo\TodoList::addTask()' for you? y
+$ vendor/bin/phpspec run
+
+        Petersuhm/Todo/TodoList
+  17  ✘ adds a task to the list
+        some predictions failed:
+          Double\Petersuhm\Todo\TaskCollection\P4:
+            Expected exactly 1 calls that match:
+              Double\Petersuhm\Todo\TaskCollection\P4->add(exact(Double\Petersuhm\Todo\Task\P3:000000002544d76d0000000059fcae53))
+            but none were made.
+```
+
+Okay, algo interessante aconteceu agora. Viua mensagem "*Expected exactly 1 calls that match: ....*"? Essa é nossa expectativa falha. Isso acontece porque, depois de invocar o método `addTask()`, o método `add()` na coleção não foi invocado, o que era esperado acontecer.
+
+Para voltar a termos tudo verde, coloque o seguinte código dentro do método `addTask()`:
+
+```php
+<?php
+
+namespace Petersuhm\Todo;
+
+class TodoList
+{
+  public $tasks;
+
+  public function addTask(Task $task)
+  {
+    $this->tasks->add($task);
+  }
+}
+```
+
+Tudo verde, novamente. Isso é muito bom, não é?
+
+### Verificando Tarefas
