@@ -300,3 +300,17 @@ class TaskCollection implements \Countable {
 Agora, nós temos um teste verde e nosso método `count()` funciona. Que legal!
 
 ## Expectativas e Promessas
+Você se lembra que eu falei que o phpspec permite você fazer várias coisas legais com as intâncias da classe `Collaborator`, também conhecidas como as instâncias que são injetadas automaticamente pelo phpspec? Se você já escreveu testes antes, você sabe o que são os objetos simulados (*mocks*) e as funções substitutas (*stubs*). Se você não sabe, não se preocupe quanto a isso. São só jargões. Eles se referem ao objetos "falsos" que agirão no lugar dos objetos de verdade, que permitem você fazer testes isolados. phpspec, automaticamente, transforma as instâncias de `Collaborator` em *mocks* e *stubs* se você precisar em seus objetos.
+
+Isso é incrível. Por trás, phpspec usa a biblioteca [Prophecy](https://github.com/phpspec/prophecy), que é um arcabouço (*framework*) bem particular que trabalha bem com phpspec (e é construída pelos mesmos criadores do phpspec).
+ Você pode estabelecer uma expectativa em um colaborador (*mocking*), algo como "esse método *deveria ser invocado*" e pode adicionar promessas (*stubbing*), como "esse método *retornará* esse valor". Com o phpspec, essa tarefa é bem simples e nós faremos as duas, logo a seguir.
+
+ Criemos uma classe, chamada de `TodoList`, que faz uso de nossa coleção:
+
+ ```php
+ $ vendor/bin/phpspec desc "Petersuhm\Todo\TodoList"
+ $ vendor/bin/phpspec run
+ Do you want me to create "Petersuhm\Todo\TodoList" for you? y
+ ```
+
+ ### Adicionando Tarefas
