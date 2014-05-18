@@ -121,3 +121,91 @@ Obviamente, `$this` refere-se à instância da classe `TaskCollectionSpec`,  uma
 Você não precisa entender perfeitamente isso para usar o phpspec, apenas se lembre que a `$this`, na verdade, refere-se ao objeto sob teste.
 
 ## Construindo Nossa Coleção de Tarefas
+Até agora, não fizemos muita coisas por conta própria. Mas o phpspec criou uma classe `TaskCollection` para nós usarmos. Agora, é hora de escrever um pouco de código e tornar essa classe útil. Nós adicionaremos dois métodos: um `add()`, para adicionar tarefas, e um `count()`, para contar o número de tarefas na coleção.
+
+### Adicionando uma Tarefa
+Antes de escrevermos qualquer código de verdade, nós deveríamos criar um exemplo em nossa especificação. Em nosso exemplo, nós queremos tentar adicionar uma tarefa à nossa coleção e, então, garantir que essa tarega foi adicionada de fato. Para fazer isso, ´precismos de uma instância da classe `Task` (ainda não existente). Se adicionarmos essa dependência como parâmetro para a nossa função de especificação, o phpspec nos dará, automaticamente, uma instância para que possamos usar. Na verdade, a instância não é de verdade, mas algo que o phpspec identifica como `Collaborator`. Esse objeto agirá como o verdadeiro objeto, mas o phpspec permitirá que façamos muitas coisas com ele. Algo que veremos em breve, inclusive. Embora a classe `Task` não exista ainda, por hora, finja que ela existe. Abra a classe `TaskCollectionSpec` e adicione a instrução `use` para adicionar a classe `Task` e, depois, adicionae o exemplo `it_adds_a_task_to_the_collection()`:
+
+```php
+use Petersuhm\Todo\Task;
+
+...
+
+function it_adds_a_task_to_the_collection(Task $task)
+{
+  $this->add($task);
+  $this->tasks[0]->shouldBe($task);
+}
+```
+
+Em nosso exemplo, escrevemos o código que "gostaríamos de ter". Nós chamamos o método `call()` e então tentamos passá-lo uma `$task`. Checamos, então, se a tarefa foi, de fato, adicionada à variável de instância, `$tasks`. O combinador `shouldBe()` é um combinador de identidade idêntico ao comparador `===` do PHP. Você usar tanto o `shouldBe()`, `shouldBeEqualTo()`, `shouldEqual()` ou `shouldReturn()` - todos fazem a mesma coisa.
+
+Ao executar o phpspec, teremos alguns erros, já que não temos a classe `Task` ainda.
+
+Façamos com que o phpspec arrume isso para nós:
+
+```bash
+$ vendor/bin/phpspec describe "Petersuhm\Todo\Task"
+$ vendor/bin/phpspec run
+Do you want me to create 'Petersuhm\Todo\Task' for you? y
+```
+
+Executando o phpspec novamente, algo interessante acontece:
+
+```bash
+$ vendor/bin/phpspec run
+Do you want me to create 'Petersuhm\Todo\TaskCollection::add()' for you? y
+```
+
+Perfeito! Se você for olhar o arquivo `TaskCollection.php`, verá que o phpspec criou uma função `add()` para que a preenchamos.
+
+```php
+<?php
+
+namespace Petersuhm\Todo;
+
+class TaskCollection
+{
+  public function add($argument1)
+  {
+    // TODO: write logic here
+  }
+}
+```
+
+Porém, phpspec ainda reclama. Nós não temos nossa array `$tasks`. Então, vamos criá-ça e adicionar nossa tarefa a ela:
+
+```php
+<?php
+
+namespace Petersuhm\Todo;
+
+class TaskCollection
+{
+  public $tasks;
+
+  public function add(Task $task)
+  {
+    $this->tasks[] = $task;
+  }
+}
+```
+
+Agora, nossas especificações estão legais e todas verdes. Note que fiz questão de lançar mão da checagem de tipos no parâmetro `$task`;
+
+Só para garantir que nós fizemos tudo certo, vamos adicionar outra tarefa:
+
+```php
+function it_adds_a_task_to_the_collection(Task $task, Task $anotherTask)
+{
+  $this->add($task);
+  $this->tasks[0]->shouldBe($task);
+
+  $this->add($anotherTask);
+  $this->tasks[1]->shouldBe($anotherTask);
+}
+```
+
+Ao rodar phpspec, tudo estará legal.
+
+### Implementando a Interface `Countable`
