@@ -488,3 +488,54 @@ public function hasTasks()
 Tah dah! Tudo verde, de novo!
 
 ## Construindo Combinadores Customizados
+Parte de criar boas especificações é fazê-las o mais legível possível. Nosso último exemplo pode, na verdade, ser aprimorado um pouco, graças aos combinadores customizados do phpspec. É fácil de implementar combinadores customizados -tudo que temos de fazer é sobrescrever o método `getMatchers()` que é herdado de `ObjectBehavior`. Ao implementarmos dois combinadores customizados, nossa especificação pode ser alterada para parecer com isso:
+
+```php
+function it_checks_wheter_it_has_any_tasks(TaskCollection $tasks)
+{
+  $tasks->count()->willReturn(0);
+  $this->tasks = $tasks;
+
+  $this->hasTasks()->shouldBeFalse();
+
+  $this->count()->willReturn(20);
+  $this->tasks = $tasks;
+
+  $this->hasTasks()->shouldBeTrue();
+}
+
+function getMatchers()
+{
+  return [
+    'beTrue' => function($subject) {
+      return $subject === true;
+    },
+    'beFalse' => function($subject) {
+      return $subject === false;
+    },
+  ];
+}
+```
+
+Eu acredito que isso esteja parecendo bem bacana. Lembre-se que refatorar suas especificações é importante para mante-las atualizadas. Implementar seus próprios combinadores customizados pode limpar suas especificações e torná-las mais legíveis.
+
+Na verdade, nós podemos usar a negação dos combinadores também:
+
+```php
+function it_checks_whether_it_has_any_tasks(TaskCollection $tasks)
+{
+  $tasks->count()->willReturn(0);
+  $this->tasks = $tasks;
+
+  $this->hasTasks()->shouldNotBeTrue();
+
+  $tasks->count()->willReturn(20);
+  $this->tasks = $tasks;
+
+  $this->hasTasks()->shouldNotBeFalse();
+}
+```
+
+Bem legal!
+
+## Conclusão
