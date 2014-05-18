@@ -307,10 +307,10 @@ Isso é incrível. Por trás, phpspec usa a biblioteca [Prophecy](https://github
 
  Criemos uma classe, chamada de `TodoList`, que faz uso de nossa coleção:
 
- ```php
+ ```bash
  $ vendor/bin/phpspec desc "Petersuhm\Todo\TodoList"
  $ vendor/bin/phpspec run
  Do you want me to create "Petersuhm\Todo\TodoList" for you? y
  ```
 
- ### Adicionando Tarefas
+### Adicionando Tarefas
