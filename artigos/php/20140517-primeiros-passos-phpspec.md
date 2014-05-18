@@ -407,3 +407,84 @@ class TodoList
 Tudo verde, novamente. Isso é muito bom, não é?
 
 ### Verificando Tarefas
+Façamos algo relacionado a promessas, também. Nós queremos um método que nos diga se há alguma tarefa em nossa coleção. Para isso, simplesmente verificaremos o valor de retorno do método `count()` da coleção. Novamente, nós não precisaremos de uma instância de verdade com um método `count()` de verdade. Nós só precisamos garantir que nosso código chame algum método `count()` e realize alguma tarefa, dependendo do valor de retorno do método.
+
+Veja o seguinte exemplo:
+
+```php
+function it_checks_whether_it_has_any_tasks(TaskCollection $tasks)
+{
+  $tasks->count->willReturn(0);
+  $this->tasks = $tasks;
+
+  $this->hasTasks()->shouldReturn(false);
+}
+```
+
+Nós temos um colaborador de coleção de tarefas que tem um método `count()` que *retornará zero*. Essa é nossa promessa. Isso significa que, toda vez que alguém chamar o método `count()`, ele retornará zero. Nós, então, atribuímos o colaborador preparado à propriedade `$tasks` do nosso objeto. Por fim, nós tentamos chamar um método, `hasTasks()`, e garantir que ele retorna `false`.
+
+O que a especificação tem a nos dizer sobre isso?
+
+```bash
+$ vendor/bin/phpspec run
+Do you want me to create 'Petersuhm\Todo\TodoList::hasTasks()' for you? y
+$ vendor/bin/phpspec run
+
+        Petersuhm/Todo/TodoList
+  25  ✘ checks whether it has any tasks
+        expected false, but got null.
+```
+
+Legal. phpspec criou para nós um método `hasTasks()` e, sem surpresas, ele retorna `null` e não `false`.
+
+Novamente, essa é uma tarefa fácil de resolver:
+
+```php
+public function hasTasks()
+{
+  return false;
+}
+```
+
+Obtivemos tudo verde, mas, isso não é bem o que queremos. Verifiquemos pelas tarefas quando tivermos 20 delas. Dessa vez, deverá retornar `true`:
+
+```php
+function it_checks_wheter_it_has_any_tasks(TaskCollection $tasks)
+{
+  $tasks->count()->willReturn(0);
+  $this->tasks = $tasks;
+
+  $this->hasTasks()->shouldReturn(false);
+
+  $tasks->count()->willReturn(20);
+  $this->tasks = $tasks;
+
+  $this->hasTasks()->shouldReturn(true);
+}
+```
+
+Execute phpspec e você terá:
+
+```bash
+$ vendor/bin/phpspec run
+
+        Petersuhm\Todo\TodoList
+  25  ✘ checks wheter it has any tasks
+        expected true, but got false.
+```
+
+Certo, `false` não é `true`, então, precisamos melhorar nosso código. Vamos usar o método `count()` para verificar se há tarefas ou não:
+
+```php
+public function hasTasks()
+{
+  if ($this->tasks->count() > 0)
+    return true;
+
+  return false;
+}
+```
+
+Tah dah! Tudo verde, de novo!
+
+## Construindo Combinadores Customizados
