@@ -38,3 +38,44 @@ Isso nos permite perguntar ao cliente "Ei, tudo o que você quer falar, está pr
 - **Permite iterações** &ndash; Mudar coisas de lugar no código, é muito mais eficiente que ter de ajustar vários layouts em alguma ferramenta de design estático. Wireframes em código lhe permitem pegar seus esboços iniciais e iteram inúmeras vezes até chegar em algo que se tornará o produto final.
 
 ## Do Wireframe ao Produto Final
+No tradicional modelo cascata de processos, há uma clara linha entre a fase de wireframes, a fase de design visual e a fase de codificação. Desenvolver wireframes no navegador praticamente acaba com essa linha, o que é uma coisa boa. Ao invés de passar horas mexendo no arquivo `wireframes_02112014_v2_FINAL_forreview_final_FINAL_jonedits.pdf`, você será capaz de passar masi tempo no navegador melhorando a definição do produto final.
+
+Para nosso projeto do banco de comida [1], isso é como que ele se parece agora:
+
+[![Wireframe Caixa Cinza do Redesign da Greater Pittsburgh Community Food Banck](http://bradfrostweb.com/wp-content/uploads/2014/05/wireframes-food-bank-1.png "Wireframe Caixa Cinza do Redesign da Greater Pittsburgh Community Food Banck")](http://foodbank.bradfrostweb.com/patternlab/v1/?p=templates-program-detail)
+
+O wireframe inicial utiliza a técnica das caixas cinzas em um layout de coluna única. Como mencionado anteriormente, isso ajuda a decidir quais conteúdos precisa estar na página e qual a ordem básica deles. Normalmente, costumo ajustar o cabeçalho e o rodapé para que eles pareçam e ajudem o wireframe a parecer uma página web de verdade.
+
+[![Primeiros ajustes no Wireframe anterior](http://bradfrostweb.com/wp-content/uploads/2014/05/wireframes-food-bank-2.png "Primeiros ajustes no Wireframe anterior")](http://foodbank.bradfrostweb.com/patternlab/v2/patterns/03-templates-03-program-detail/03-templates-03-program-detail.html)
+
+Logo depois, começamos a dar aspectos gerais de layout às caixas cinza. Isso ajuda a articular o que acontece em telas maiores quanto há espaço suficiente para barras laterais, seções de navegação, etc.
+
+[![Segunda leva de ajustes no Wireframe anterior](http://bradfrostweb.com/wp-content/uploads/2014/05/wireframes-food-bank-3.png "Segunda leva de ajustes no Wireframe anterior")](http://foodbank.bradfrostweb.com/patternlab/v3/patterns/03-templates-03-program-detail/03-templates-03-program-detail.html)
+
+Assim que achamos que o conteúdo está bem posicionado/divido na página, eu começo a substituir as caixas cinzas com [moléculas](http://patternlab.io/about.html#molecules) e [organismos](http://patternlab.io/about.html#organisms) que, eventualmente, farão parte da interface final. No exemplo acima, substituo o bloco cinza "*Other programs*" com um padrão chamado "section-navigation". Sua [chamada](http://patternlab.io/docs/pattern-including.html) é assim:
+
+```php
+{{> molecules-section-nav }}
+```
+
+[![Terceira leva de ajustes no Wireframe anterior](http://bradfrostweb.com/wp-content/uploads/2014/05/wireframes-food-bank-4.png "Terceira leva de ajustes no Wireframe anterior")](http://foodbank.bradfrostweb.com/patternlab/v4/patterns/03-templates-03-program-detail/03-templates-03-program-detail.html)
+
+Uma hora, todas as caixas cinzas são substituídas por chamadas de padrões. Nesse estágio, as coisas ainda parecem bem básicas, por isso elas ainda parece lixo. Mas, logo isso mudará.
+
+[![Quarta leva de ajustes no Wireframe anterior](http://bradfrostweb.com/wp-content/uploads/2014/05/wireframes-food-bank-5.jpg "Quarta leva de ajustes no Wireframe anterior")](http://foodbank.bradfrostweb.com/patternlab/v5/patterns/04-pages-02-programs-01-program-detail/04-pages-02-programs-01-program-detail.html)
+
+Nesse estágio, a maioria dos padrões de design estão ajustados e a estrutura está sólida, o que nos dá a oportunidade de ir além e começar a estilizar alguns dos organismos globais, como os cabeçalho e rodapé globais. O estilo desses elementos, sem dúvida, sofrerá alterações durante o processo, mas, os estilos inicias nos dá uma base visual/artística.
+
+[![Quinta leva de ajustes no Wireframe anterior](http://bradfrostweb.com/wp-content/uploads/2014/05/wireframes-food-bank-6.jpg "Quinta leva de ajustes no Wireframe anterior")](http://foodbank.bradfrostweb.com/patternlab/v6/patterns/04-pages-02-programs-01-program-detail/04-pages-02-programs-01-program-detail.html)
+
+Tão logo os elementos globais estiverem estilizados, podemos passar para os detalhes da interface. Obviamente, gastaremos muito mais tempo fazendo isso, e, para o projeto do banco de comida, o que é apresentado acima, é mal o começo das alterações. Mas, com relação [à nossa timeline do projeto](http://foodbank.bradfrostweb.com/timeline/), é legal ver o processo progredindo.
+
+Tenho trabalhado dessa forma faz um ano e meio, e é ótimo ver que caras como Matt GRiffin e o pessoal inteligente da [Bearded, seguem um processo parecido](http://alistapart.com/article/responsive-comping-obtaining-signoff-with-mockups). Assim como falei no [meu post do redesign do TechCrunch](http://bradfrostweb.com/blog/post/techcrunch/) que fizemos, eu considero esse processo bem parecido com o de escultura em pedra.
+
+![Escultura em pedra](http://bradfrostweb.com/wp-content/uploads/2013/11/sculpture.jpg "Escultura em pedra")
+
+> Você começa com uma rocha bem grande e, aos poucos, vai lascando a pedra para obter a base da forma da escultura que você quer criar. Você continua assim até conseguir uma ideia melhor do objeto final que quer esculpir. E continua, adicionando detalhes. Uma hora, você para e foca em um aspecto aprticular, como o rosto, os braços, o torso. É um processo lento, mas, com certeza, detalhará cada parte da escultura até chegar a forma final.
+
+Projetar para uma multitude de telas, ambientes e outras variáveis, é bem trabalhoso, então, ir para o navegador tão logo possível dá oportunidade de projetar e desenvolver soluções masi realistas.
+____
+1. http://foodbank.bradfrostweb.com/patternlab/v1/?p=templates-program-detail
