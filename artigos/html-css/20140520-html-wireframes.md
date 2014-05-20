@@ -1,7 +1,7 @@
 Wireframes em HTML
 ==============================================
 Créditos<br/>
-<small>Autor original: [Brad Frost](http://bradfrostweb.com/)<br/>[Artigo Original](http://bradfrostweb.com/blog/post/html-wireframes/)<br/>Nível: Iniciante</small>
+<small>Autor original: [Brad Frost](http://bradfrostweb.com/)<br/>[Artigo Original](http://bradfrostweb.com/blog/post/html-wireframes/)<br/>Nível: Iniciante-Intermediário</small>
 
 Durantes os primeiros anos da minha carreira, eu não sabia que wireframes existiam. E isso durou até eu começar a trabalhar em uma grande agência, quando descobri o mundo preto-e-branco do InDesign, onde inúmeras versões de PDFs com mais de 100 páginas eram criados para apresentar os trabalhos aos clientes.
 
