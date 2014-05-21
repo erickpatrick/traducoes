@@ -119,7 +119,7 @@ if ($result = $mysqli->query($query)) {
 ```
 
 ## Segurança
-![Consulta SQL identificando problema de segurança](https://cdn.tutsplus.com/net/uploads/legacy/2013_phpvsmysqli/tutorial_3.png "Consulta SQL identificando problema de segurança")
+![Consulta SQL identificando problema de segurança](https://cdn.tutsplus.com/net/uploads/legacy/2013_phpvsmysqli/tutorial_1.png "Consulta SQL identificando problema de segurança")
 
 > Ambas as bibliotecas proveem **segurança contra injeção de SQL, desde que o desenvolvedor as use da maneira que elas foram planejadas para usar** (leia-se: limpando variáveis, vinculando parâmetros com sentenças preparadas).
 
