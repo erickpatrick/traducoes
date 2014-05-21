@@ -5,3 +5,4 @@ Traduções Realizadas
 
 Futuras Traduções
 -----------------
+- [Mastering Sass Series](https://code.tutsplus.com/series/mastering-sass--net-19077)

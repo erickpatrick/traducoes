@@ -9,6 +9,9 @@ Traduções Realizadas
 
 Futuras Traduções
 -----------------
+- [Test-Driven PHP Series](https://code.tutsplus.com/series/test-driven-php--net-27482)
+
+
 ### Básico
 - [PDO vs. MySQLi: Which Should You Use?](https://code.tutsplus.com/tutorials/pdo-vs-mysqli-which-should-you-use--net-24059)
 - [Why you Should be using PHP's PDO for Database Access](https://code.tutsplus.com/tutorials/why-you-should-be-using-phps-pdo-for-database-access--net-12059)

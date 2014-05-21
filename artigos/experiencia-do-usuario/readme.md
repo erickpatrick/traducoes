@@ -1,7 +1,3 @@
-Traduções Realizadas
---------------------
-### Intermediário
-- [Testes A/B com Google Analytics](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/20140512-testes-ab-google-analytics.md)
-
 Futuras Traduções
 -----------------
+- [SEO Fundamentals for Web Designers Series](https://webdesign.tutsplus.com/series/seo-fundamentals-for-web-designers--webdesign-9715)
