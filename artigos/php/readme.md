@@ -1,4 +1,4 @@
-Traduções já realizadas
+Traduções Realizadas
 -----------------------
 ### Básico
 - [Não tema as exceções](https://github.com/erickpatrick/traducoes/blob/master/artigos/php/20140517-nao-tema-as-excecoes.md)
