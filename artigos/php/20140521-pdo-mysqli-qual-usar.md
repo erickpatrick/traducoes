@@ -37,3 +37,15 @@ Por favor, considere que esses objetos de conexões/recursos estejam presentes d
 Tanto PDO quanto MySQli oferecem um API orientada a objetos, mas o MySQLi também oferece uma API procedural - facilitando o entendimento por parte dos novatos. Se você já é familiarizado com o driver nativo do MySQl para PHP, migrar para a interface procedural do MySQLi será extremamente simples. Por outro lado, uma vez que você compreender a PDO, você poderá usá-la com qualquer banco de dados que desejar!
 
 ## Suporte a Bancos de Dados
+![Lista de Bancos de Dados Suportados pelo PDO vs. MySQLi](https://cdn.tutsplus.com/net/uploads/legacy/2013_phpvsmysqli/tutorial_3.png "Lista de Bancos de Dados Suportados pelo PDO vs. MySQLi")
+
+A principal vantagem do PDO sobre o MySQLi é seu suporte aos drivers de diversos bancos de dados. No momento em que traduzo esse artigo, o **PDO dá suporte a 12 tipos diferents de dirvers**, enquanto o MySQLi só dá **suporte ao MySQL**.
+
+Caso queira saber quais os drivers que o PDO dá suporte no momento, use o código a seguir:
+
+```php
+var_dump(PDO::getAvailableDrivers());
+```
+O que isso significa? Bem, ~em situações que você precisar usar outro banco de dados, a PDO torna esse processo transparente. Então, *a única coisa que você precisará fazer* é mudar os parâmetros de conexão e algumas consultas &ndash isso se elas usarem algum método que não seja suportado por outra base de dados. Já com o MySQLi, você precisará *reescrever todo o código que lida com banco de dados* &ndash; inclusive as consultas.
+
+## Parâmetros Nomeados
