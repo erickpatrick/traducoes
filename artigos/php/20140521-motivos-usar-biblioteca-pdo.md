@@ -107,3 +107,19 @@ try {
 Há um erro intencional na consulta `select` acima. Esse erro causará uma exceção. A exceção envia os detalhes do erro para o arquivo de log, e mostrar uma mensagem amigável (talvez nem tão amigável) para o usuário.
 
 ## Inserção e Atualização
+Inserir novos dados ou atualiza algum dado que já exista são das operações mais comuns em bases de dados. Usando PDO, isso costuma ser um processo de duas etapas. Tudo que explicarmos nessa seção servirá, igualmente, para as operações `INSERT` e `UPDATE`.
+
+![Esquema do processo de inserção/atualização de dados](https://s3.amazonaws.com/nettuts/693_pdo/prepare-bind-execute.png "Esquema do processo de inserção/atualização de dados")
+
+Veja um exemplo do tipo mais básico de inserção:
+
+```php
+# STH significa "Statement handle" ou "manipulador de sentença"
+$STH->$DBH->prepare("INSERT INTO folks ( first_name ) values ( 'Cathy' )");
+$STH->execute();
+```
+
+Você também poderia realizar essa operação através do método `exec()`, usando uma chamada de método a menos. Na maioria das situações, você usará o método mais long para que possa aproveitar das sentenças preparadas. Mesmo se você usa-la uma única vez, usar sentenças preparadas ajudará você a se proteger de ataques de injeção de SQL.
+
+## Sentenças Preparadas
+> Usar sentenças preparadas ajudará você a se proteger de injeções de SQL
