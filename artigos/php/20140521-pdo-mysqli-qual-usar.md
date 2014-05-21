@@ -161,3 +161,7 @@ $query->execute();
 ## Performance
 Tanto PDO quanto MySQLi são bem rápidas, porém, MySQLi se sai, insignificantemente, mais rápida nos comparativos *ndash; ~2,5% para sentenças não preparadas e ~6,5% para as sentenças preparadas. Porém, a extensão nativa do MySQL é ainda mais rápida que ambas. Mas, como afirmei no começo, ela não é mais uma opção.
 
+## Conclusão
+No fim das contas, PDO ganha essa, e fácil. Com suporte a 12 drivers de bases de dados diferentes e parâmetros nomeados, nós podemos ignorar a pequena perda de performance que ela tem, comparada à MySQLi. Com relação à segurança, ambas são seguras, desde que o desenvolvedor saiba usá-las da forma correta.
+
+> Então, se você ainda está usando MySQLi, talvez seja hora de mudar!
