@@ -73,3 +73,49 @@ A vinculação dos parâmetros na forma de interrogação pode parecer menor, ma
 Infelizmente, **MySQLi não dá suporte a parâmetros nomeados**.
 
 ## Mapeamento de Objetos
+Tanto PDO quanto MySQLi podem mapear resultados em objetos. Isso vem bem a calhar se você não quer usar uma camada de abstração de banco de dados customizada, mas ainda quer um comportamento semelhante ao de um *ORM*. Vamos imaginar que nós temos uma classe `User` com algumas propriedades nomeadas de forma idêntica aos campos da tabela do Banco de Dados:
+
+```php
+class User {
+	public $id;
+	public $first_name;
+	public $last_name;
+
+	public function info()
+	{
+		return "#" . $this->id . ": " . $this->first_name . " " . $this->last_name;
+		}
+}
+```
+
+Sem o mapeamento de objetos, nós precisaríamos preencher cada um dos campos (fosse manualmente ou através de um método construtor), anes de podermos usar o método `info()` corretamente.
+
+Isso permite que nós predefinamos as propriedades antes mesmo do objeto ser construído! Por exemplo:
+
+```php
+$query = "SELECT id, first_name, last_name FROM users";
+
+// PDO
+$result = $pdo->query($query);
+$result->setFetchMode(PDO::FETCH_CLASS, 'User');
+
+while ($user = $result->fetch()) {
+	echo $user->info() . "\n";
+}
+
+// MySQLi, forma procedural
+if ($result = mysqli_query($mysqli, $query)) {
+	while ($user = mysqli_fetch_object($result, 'User')) {
+		echo $user->info() . "\n";
+	}
+}
+
+// MySQLi, forma orientada a objetos
+if ($result = $mysqli->query($query)) {
+	while ($user = $result->fetch_object('User')) {
+		echo $user->info() . "\n";
+	}
+}
+```
+
+## Segurança
