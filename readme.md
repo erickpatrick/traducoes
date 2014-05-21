@@ -8,3 +8,11 @@ O meu objetivo é trazer, pelo menos, 1 tradução por dia. Seja de um post pequ
 Espero que estejam preparados e, quaisquer erros que encontrarem, podem abrir uma *issue* que a corrigirei com prazer e assim que possível.
 
 Embora a maioria das traduções estejam voltadas para artigos, vocês poderão ver traduções de livros e documentações de projetos *open source*, também.
+
+Traduções Realizadas
+--------------------
+Cada uma das pastas contém (ou conterá) uma lista com o link para cada um dos posts traduzidos, organizados por nível de conhecimento (básico, básico-intermediário, intermediário, intermediário-avançado, avançado, avançado-profissional, profissional)
+
+Futuras Traduções
+-----------------
+Cada uma das pastas contém (ou conterá) uma lista com os futuros posts que serão traduzidos, organizados por nível de conhecimento. É provável que será seguida a ordem em que são listados.
