@@ -1,6 +1,7 @@
 Traduções Realizadas
 --------------------
 ### Básico
+- [PDO vs. MySQLi: Qual você deveria usar?]()
 - [Não tema as exceções](https://github.com/erickpatrick/traducoes/blob/master/artigos/php/20140517-nao-tema-as-excecoes.md)
 
 ### Intermediário
@@ -13,7 +14,7 @@ Futuras Traduções
 
 
 ### Básico
-- [PDO vs. MySQLi: Which Should You Use?](https://code.tutsplus.com/tutorials/pdo-vs-mysqli-which-should-you-use--net-24059)
+
 - [Why you Should be using PHP's PDO for Database Access](https://code.tutsplus.com/tutorials/why-you-should-be-using-phps-pdo-for-database-access--net-12059)
 - [Understanding Hash Functions and Keeping Passwords Safe](https://code.tutsplus.com/tutorials/understanding-hash-functions-and-keeping-passwords-safe--net-17577)
 
