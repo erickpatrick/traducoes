@@ -119,3 +119,43 @@ if ($result = $mysqli->query($query)) {
 ```
 
 ## Segurança
+![Consulta SQL identificando problema de segurança](https://cdn.tutsplus.com/net/uploads/legacy/2013_phpvsmysqli/tutorial_3.png "Consulta SQL identificando problema de segurança")
+
+> Ambas as bibliotecas proveem **segurança contra injeção de SQL, desde que o desenvolvedor as use da maneira que elas foram planejadas para usar** (leia-se: limpando variáveis, vinculando parâmetros com sentenças preparadas).
+
+Digamos que um *hacker* esteja tentando injetar algum código malicioso através de um parâmetro 'username' de uma requisição HTTP GET:
+
+```php
+$_GET['username'] = "'; DELETE FROM users; /*"
+```
+
+Se nós falharmos em limpá-lo, ele será incluído na consulta exatamente como está &ndash e deletará todas linhas da tabela `users` (tanto PDO quanto MySQLi suporta múltiplas consultas).
+
+```php
+// PDO, limpeza manual
+$username = PDO::quote($_GET['username']);
+
+$pdo->query("SELECT * FROM users WHERE username = $username");
+
+// MySQLi, limpeza manual
+$username = mysqli_real_escape_string($_GET['username']);
+
+$mysqli->query("SELECT * FROM users WHERE username = '$username'");
+```
+
+Como pode ver, `PDO::quote()` **não só valida, mas fixa as aspas**. Por outro lado, `mysqli_real_escape_string()` só limpará, forçando você a fixar as aspas manualmente.
+
+```php
+// PDO com sentenças preparadas
+$pdo->prepare('SELECT * FROM users WHERE username = :username');
+$pdo->execute([':username' => $_GET['username']]);
+
+// MySQLi, sentenças preparadas
+$query = $mysqli->prepare('SELECT * FROM users WHERE username = ?');
+$query->bind_param('s', $_GET['username']);
+$query->execute();
+```
+
+> Recomendo que você sempre use sentenças preparadas com consultas vinculadas ao invés da `PDO::quote()` e da `mysqli_real_scape_string()`.
+
+## Performance
