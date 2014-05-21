@@ -159,3 +159,5 @@ $query->execute();
 > Recomendo que você sempre use sentenças preparadas com consultas vinculadas ao invés da `PDO::quote()` e da `mysqli_real_scape_string()`.
 
 ## Performance
+Tanto PDO quanto MySQLi são bem rápidas, porém, MySQLi se sai, insignificantemente, mais rápida nos comparativos *ndash; ~2,5% para sentenças não preparadas e ~6,5% para as sentenças preparadas. Porém, a extensão nativa do MySQL é ainda mais rápida que ambas. Mas, como afirmei no começo, ela não é mais uma opção.
+
