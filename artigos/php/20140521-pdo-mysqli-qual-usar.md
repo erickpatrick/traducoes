@@ -49,3 +49,27 @@ var_dump(PDO::getAvailableDrivers());
 O que isso significa? Bem, ~em situações que você precisar usar outro banco de dados, a PDO torna esse processo transparente. Então, *a única coisa que você precisará fazer* é mudar os parâmetros de conexão e algumas consultas &ndash isso se elas usarem algum método que não seja suportado por outra base de dados. Já com o MySQLi, você precisará *reescrever todo o código que lida com banco de dados* &ndash; inclusive as consultas.
 
 ## Parâmetros Nomeados
+Essa é outra característica importante que o PDO tem; vincular parâmetros com PDO é muito mais fácil usando a vinculação nomeada:
+
+```php
+$params = [':usuario' => 'teste', ':email' => $email => ':ultimo_login' => time() - 3600];
+
+$pdo->prepare('SELECT * FROM users WHERE username = :usuario AND email = :email AND las_login = :ultimo_login');
+
+$pdo->execute($params);
+```
+
+Ao contrário da maneira do MySQLi:
+
+```php
+$query = $mysqli->prepare('SELECT * FROM users WHERE username = ? AND email = ? AND lasT_login = ?');
+
+$query->bind_param('teste', $mail, time() - 3600);
+$query->execute();
+```
+
+A vinculação dos parâmetros na forma de interrogação pode parecer menor, mas, nem de longe, é tão flexível quanto aos parâmetros nomeados, devido ao fato do desenvolvedor ser obrigado a saber a ordem dos parâmetros. Ela parece um *hack* feito para permitir vinculação de parâmetros em algumas circunstâncias.
+
+Infelizmente, **MySQLi não dá suporte a parâmetros nomeados**.
+
+## Mapeamento de Objetos
