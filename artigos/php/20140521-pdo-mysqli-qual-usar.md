@@ -34,3 +34,6 @@ $mysqli = new mysqli('servidor', 'usuario', 'senha', 'banco_de_dados');
 Por favor, considere que esses objetos de conexões/recursos estejam presentes durante o resto desse tutorial.
 
 ## Suporte de API
+Tanto PDO quanto MySQli oferecem um API orientada a objetos, mas o MySQLi também oferece uma API procedural - facilitando o entendimento por parte dos novatos. Se você já é familiarizado com o driver nativo do MySQl para PHP, migrar para a interface procedural do MySQLi será extremamente simples. Por outro lado, uma vez que você compreender a PDO, você poderá usá-la com qualquer banco de dados que desejar!
+
+## Suporte a Bancos de Dados
