@@ -1,7 +1,7 @@
 Traduções Realizadas
 --------------------
 ### Básico
-- [PDO vs. MySQLi: Qual você deveria usar?]()
+- [PDO vs. MySQLi: Qual você deveria usar?](https://github.com/erickpatrick/traducoes/blob/master/artigos/php/20140521-pdo-mysqli-qual-usar.md)
 - [Não tema as exceções](https://github.com/erickpatrick/traducoes/blob/master/artigos/php/20140517-nao-tema-as-excecoes.md)
 
 ### Intermediário
