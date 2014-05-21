@@ -3,6 +3,7 @@ Traduções Realizadas
 ### Básico
 - [PDO vs. MySQLi: Qual você deveria usar?](https://github.com/erickpatrick/traducoes/blob/master/artigos/php/20140521-pdo-mysqli-qual-usar.md)
 - [Não tema as exceções](https://github.com/erickpatrick/traducoes/blob/master/artigos/php/20140517-nao-tema-as-excecoes.md)
+- [Porque Você Deveria Usar a Biblioteca PDO para Acessar Bases de Dados](#)
 
 ### Intermediário
 - [Primeiros passos com PhpSpec](https://github.com/erickpatrick/traducoes/blob/master/artigos/php/20140517-primeiros-passos-phpspec.md)
@@ -14,8 +15,6 @@ Futuras Traduções
 
 
 ### Básico
-
-- [Why you Should be using PHP's PDO for Database Access](https://code.tutsplus.com/tutorials/why-you-should-be-using-phps-pdo-for-database-access--net-12059)
 - [Understanding Hash Functions and Keeping Passwords Safe](https://code.tutsplus.com/tutorials/understanding-hash-functions-and-keeping-passwords-safe--net-17577)
 
 ### Básico-Intermediário
