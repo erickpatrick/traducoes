@@ -71,3 +71,39 @@ $DBH = null;
 Você pode conseguir masi informações sobre opções ou itens de conexão específicos para cada base de dados, direto do [PHP.net](http://www.php.net/manual/en/pdo.drivers.php).
 
 ## Exceções e PDO
+A PDO pode usar exceções para manipular erros, significando que, qualquer coisa que você fizer com PDO, deverá estar envolta em um bloco `try-catch`. Você pode forçar a PDO a acessar o banco em três diferentes modos, ao usar o atributo de modo de erro em seu manipulador de base de dados recém criado. Eis a sintaxe:
+
+```php
+$DBH->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_SILENT );
+$DBH->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING );
+$DBH->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+```
+
+Independente do modo de erro que você indicar, um erro de conexão sempre produzirá uma exceção. É por isso que o código de criação de uma conexão sempre deve vir dentro de um bloco `try-catch`.
+
+### PDO::ERRMODE_SILET
+Esse é o modo de erro padrão. Se você o deixar nesse modo, você terá de checar os erros da maneira que você, provavelmente, está acostumado a fazer com as extensões MySQL e MySQLi. Os outros dois métodos são ideiais para programação DRY (do inglês, Don't Repeat Yourself &mdash; Não se repita).
+
+### PDO::ERRMODE_WARNING
+Esse modo lançará um aviso padrão do PHP e permitirá que o programa continue executando. É um método útil para depuração.
+
+### PDO::ERRMODE_EXCEPTION
+Esse é o modo que você deveria usar na maioria das situações. Ele lança uma exceção, permitindo que você lide com os erros de forma graciosa e esconda os dados que possa permitir alguém a tirar proveito, explorar seu sistema. Eis um exemplo lançando mão das exceções:
+
+```php
+# Conecta-se à base de dados
+try {
+  $DBH = new PDO("mysql:host=$servidor;dbname=$baseDeDados", $usuario, $senha);
+  $DBH->setAttribute( PDO:ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+
+  # Oh, não! Digitou DELECT ao invés de SELECT!
+  $DBH->prepare('DELECT name FROM people');
+} catch (PDOException $e) {
+  echo 'Desculpe, cara. Sinto que não posso fazer isso';
+  file_put_contents('PDOErrors.txt', $e->getMessage(), FILE_APPEND);
+}
+```
+
+Há um erro intencional na consulta `select` acima. Esse erro causará uma exceção. A exceção envia os detalhes do erro para o arquivo de log, e mostrar uma mensagem amigável (talvez nem tão amigável) para o usuário.
+
+## Inserção e Atualização
