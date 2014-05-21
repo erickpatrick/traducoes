@@ -39,3 +39,35 @@ print_r(PDO::getAvailableDrivers());
 ```
 
 ## Conexão
+Bases de dados diferentes podem ter métodos de conexão ligeiramente diferentes. Abaixo, os métodos para conectar-se às bases de dados mais populares são mostrados. Você percberá que as três primeiras são idênticas, a não ser pelo tipo da base de dados &ndash; e, então, a SQLite tem sua própria sintaxe.
+
+![Sintaxe para conexão à base de dados via PDO](https://s3.amazonaws.com/nettuts/693_pdo/connection_string.png "Sintaxe para conexão à base de dados via PDO")
+
+```php
+try {
+	# Conexão com MS SQL SERVER e Sybase usando PDO_DBLIB
+	$DBH = new PDO("mssql:host=$servidor;dbname=$baseDeDados, $usuario, $senha");
+	$DBH = new PDO("sybase:host=$servidor;dbname=$baseDeDados, $usuario, $senha");
+
+	# Conexão com MySQL via PDO_MYSQL
+	$DBH = new PDO("mysql:host=$servidor;dbname=$baseDeDados, $usuario, $senha");
+
+	# Conexão com SQLite usando PDO_SQLITE
+	$DBH = new PDO("sqlite:caminho/para/minha/base/de/dados/baseDeDados.db");
+} catch (PDOException $e) {
+	echo $e->getMessage();
+}
+```
+
+Por favor, atente ao bloco de código do `try/catch` &ndash; você sempre deve envolver suas operações PDO em um bloco `try/catch` e usar o mecanismo de exceção. Logo mais saberá o porque disso. Geralmente, você só fará uma única conexão &ndash; somente listamos várias para poder exemplificar a sintaxe. `$DBH`, em inglês, significa *database handle*, que, em português seria "manipulador de base de dados". Nós usaremos essa nomenclatura pelo resto do tutorial.
+
+Você pode encerrar a conexão de forma simples. Basta atribuir o valor `null` ao manipulador:
+
+```php
+# fecha a conexão
+$DBH = null;
+```
+
+Você pode conseguir masi informações sobre opções ou itens de conexão específicos para cada base de dados, direto do [PHP.net](http://www.php.net/manual/en/pdo.drivers.php).
+
+## Exceções e PDO
