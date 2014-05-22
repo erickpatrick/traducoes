@@ -3,7 +3,7 @@ Traduções Realizadas
 ### Básico
 - [PDO vs. MySQLi: Qual você deveria usar?](https://github.com/erickpatrick/traducoes/blob/master/artigos/php/20140521-pdo-mysqli-qual-usar.md)
 - [Não tema as exceções](https://github.com/erickpatrick/traducoes/blob/master/artigos/php/20140517-nao-tema-as-excecoes.md)
-- [Porque Você Deveria Usar a Biblioteca PDO para Acessar Bases de Dados](https://github.com/erickpatrick/traducoes/blob/master/artigos/php/20140521-motivos-usar-biblioteca-pdo.md) - Em andamento
+- [Porque Você Deveria Usar a Biblioteca PDO para Acessar Bases de Dados](https://github.com/erickpatrick/traducoes/blob/master/artigos/php/20140521-motivos-usar-biblioteca-pdo.md)
 
 ### Intermediário
 - [Primeiros passos com PhpSpec](https://github.com/erickpatrick/traducoes/blob/master/artigos/php/20140517-primeiros-passos-phpspec.md)
