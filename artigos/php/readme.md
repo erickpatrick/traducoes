@@ -8,6 +8,7 @@ Traduções Realizadas
 ### Intermediário
 - [Primeiros passos com PhpSpec](https://github.com/erickpatrick/traducoes/blob/master/artigos/php/20140517-primeiros-passos-phpspec.md)
 - [BDD com Behat](https://github.com/erickpatrick/traducoes/blob/master/artigos/php/20140519-BDD-behat.md)
+- [Compreendendo as Funções Hash e Mantendo as Senhas Seguras]() - Em andamento
 
 Futuras Traduções
 -----------------
@@ -15,7 +16,7 @@ Futuras Traduções
 
 
 ### Básico
-- [Understanding Hash Functions and Keeping Passwords Safe](https://code.tutsplus.com/tutorials/understanding-hash-functions-and-keeping-passwords-safe--net-17577)
+...
 
 ### Básico-Intermediário
 - [Vagrant: What, Why, and How](https://code.tutsplus.com/tutorials/vagrant-what-why-and-how--net-26500)
