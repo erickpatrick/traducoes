@@ -170,7 +170,7 @@ Como mencionei anteriormente, um computador moderno com um GPU poderosa (sim, pl
 
 Você pode achar que requerer que a senhas de 8 caracteres de comprimento livrarão você de ataques de força bruta. Vamos verificar se isso é verdade:
 
-- Se a senha puder ter somente letras minúsculas, maiúsculas e números, teremos 62 caracteres possíveis de utilizar; 
+- Se a senha puder ter somente letras minúsculas, maiúsculas e números, teremos 62 caracteres possíveis de utilizar;
 - Uma senha com 8 caracteres de comprimento pode ter 62 ^ 8 possibilidades, ou um pouco mais de 218 trilhões;
 - A uma taxa de 1 bilhão de cadeias hash pode segundo, podemos resolver esse "problema" em 60 horas.
 
@@ -266,4 +266,85 @@ function check_password($hash, $password)
 
 Quando executado, você verá "Acesso Garantido!";
 
-## 8. Tudo Junto
+## 8. Juntando Tudo
+Tendo em mente tudo o que foi falado, escrevamos um classe utilitária, baseada em tudo o que aprendemos até agora:
+
+```php
+class PassHash {
+
+  // blowfish
+  private static $algo = "$2a";
+
+  // parâmetro de custo
+  private static $cost = '$10';
+
+  // criada, principalmente, para uso interno
+  public static function unique_salt()
+  {
+    return substr(sha1(mt_rand()), 0, 22);
+  }
+
+  // isso será usado para gerar o hash
+  public static function hash($password)
+  {
+    return crypt($password,
+                  self::$algo .
+                  self::$cost .
+                  '$' . self::unique_salt());
+  }
+
+  // essa será usada para comparar a senha em relação ao hash
+  public static function check_password($hash, $password)
+  {
+    $full_salt = substr($hash, 0, 29);
+
+    $new_hash = crypt($password, $full_salt);
+
+    return ($hash === $new_hash);
+  }
+}
+```
+
+E, aqui, o uso durante o registro do usuário:
+
+```php
+// inclua a classe
+require ("PassHash.php");
+
+// leia todos os dados de entrada através do $_POST
+// ...
+
+// valide os dados
+// ...
+
+// converta a senha
+$pass_hash = PassHash: hash($_POST['password']);
+
+// guarda todos os dados do usuário no banco, exceto $_POST['password']
+// ao invés disso, guarde a cadeia hash, $pass_hash
+// ...
+```
+
+E essa é a maneira de usa-la durante o processo de login:
+
+```php
+// inclua a classe
+require ("PassHash.php");
+
+// leia todos os dados de entrada através do $_POST
+// ...
+
+// busque o registro do usuário baseado em $_POST['username'] ou similar
+// ...
+
+// verifique se a senha usada bate com o hash guardado
+if (PassHash::check_password($user['pass_hash'], $_POST['password'])) {
+  // garanta o acesso
+  // ...
+} else {
+  // negue o acesso
+  // ...
+}
+```
+
+## 9. Alguns Pontos em Relação à Disponibilidade do Algoritmo Blowfish
