@@ -232,3 +232,23 @@ $STH->execute((array)$cathy);
 Ao converter o objeto em uum vetor dentro da execução, as propriedades são tratadas como chaves de um vetor.
 
 ## Selecionando Dados
+![Selecionando dados com PDO](https://s3.amazonaws.com/nettuts/693_pdo/fetch_obj_array.png "Selecionando dados com PDO")
+
+Dados são retornados pelo método `fetch()`. Antes de chamá=lo, é melhor apontar ao PDO qual o tipo de retorno que você prefere. Você tem as seguintes opções:
+
+- **PDO::FETCH_ASSOC**: retorna um vetor com índices associados aos nomes das colunas da tabela;
+- **PDO::FETCH_BOTH (default)**: retonra um vetor com índices númericos e índeces associados aos nomes das colunas da tabela;
+- **PDO::FETCH_BOUND**: Associa os valores de suas colunas às variáveis atribuídas com o método `binColumnd()`;
+- **PDO::FETCH_CLASS**: Associa os valores das colunas da tabela às propriedades da classe nomeada. Proprieades serão criadas se não houver propriedades combinantes;
+- **PDO::FETCH_INTO**: Atualiza a instância de uma classe nomeada;
+- **PDO::FETCH_LAZY**: Combina **PDO::FETCH_BOTH/PDO::FETCH_OBJ**, criando os nomes das propriedades do objetos de acordo com que elas forem usadas;
+- **PDO::FETCH_NUM**: retorna um vetor com índices numéricos;
+- **PDO::FETCH_OBJ**: retorna um objeto anônimo com nomes de propriedades que correspondem aos nomes das colunas da tabela;
+
+Na verdde, há três opções que cobrem a maioria das situações: FETCH_ASSOC, FETCH_CLASS e FETCH_OBJ. Para indicar o método de retorno, a sintaxe abaixo é usada:
+
+```php
+$STH->setFetchMode(PDO::FETCH_ASSOC);
+```
+
+### FETCH_ASSOC
