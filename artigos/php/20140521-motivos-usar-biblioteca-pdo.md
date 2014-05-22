@@ -349,3 +349,43 @@ while ($registroObj = $STH->fetch(PDO::FETCH_CLASS, 'PessoaSecreta', [$i])) {
 ```
 
 ## Outros Métodos Úteis
+Enquanto esse tutorial não foi pensado para cobrir cada detalhe da PDO, que é uma extensão gigantesca, há alguns outros métodos que você pode querer saber para poder realizar alguns coisas básicas com ela.
+
+```php
+$DBH->lastInsertedID();
+```
+
+O método `lastInsertedId()` é sempre chamado no manipulador da base de dados, não no manipulador de sentenças, e retornará o valor autoincrementado do último id inserido no registro por aquela conexão.
+
+```php
+$DBH->exec('DELETE FROM folks WHERE 1');
+$DBH->exec("SET time_zone = '-3:00'");
+```
+
+O método `exec()` é usado para operações que não podem retornar dados além daqueles que foram afetados pela consulta. O exemplo acima mostra dois exemplo de utilização do método.
+
+```php
+$safe = $DBH->quote($unsafe);
+```
+
+O método `quote()` fixa as aspas dos elementos das suas consultas. Esse é seu método de segurança, caso não esteja usando sentenças preparadas.
+
+```php
+$registros_afetados = $STH->rowCount();
+```
+
+O método `rowCount()` retorna um número inteiro indicando o número de registros afetados por uma operação. Em pelo menos um versão do PHP, de acordo com esse [reporte de erro](http://bugs.php.net/40822), esse método não funciona com sentenças do tipo `select`. Se você está com esse problema e não pode atualizar sua versão do PHP, você pode obter o número de registros afetados com o código a seguir:
+
+```php
+$sql = "SELECT COUNT(*) FROM folks";
+if ($STH = $DBH->query($sql)) {
+  # verifica a quantidade de registros
+  if ($STH->fetchColumn() > 0) {
+    # realize um `select` de verdade aqui, porque há registros
+  } else {
+    echo 'Não há registros que satisfaçam a busca';
+  }
+}
+```
+
+## Conclusão
