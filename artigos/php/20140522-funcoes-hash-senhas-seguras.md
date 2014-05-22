@@ -361,3 +361,6 @@ if (CRYPT_BLOWFISH === 1) {
 Entretanto, desde o PHP 5.3, você não precisa se preocupar, o PHP vem com sua própria implementação do algoritmo, por padrão.
 
 ## Conclusão
+Esse método de converter senhas é forte o suficiente para a maioria das aplicações web. Tendo dito, não esqueça: você também pode requerer que seus usuários/clientes usem senhas mais difíceis, forçando um comprimento mínimo, caracteres embaralhados, digitos e caracteres especiais.
+
+Uma pequena pergunta para você, leitor: Como você converte suas senhas? Você é capaz de recomendar algum melhoramento para essa implementação?
