@@ -91,3 +91,38 @@ Por exemplo, a função `md5()` pode servir, uma vez que ela gera cadeias hashes
 
 ### Sha1
 [`Sha1()`] é uma alternativa e ela gera uma cadeia has ainda maior, com 160-bit.
+
+## 5. Problema #2: Tabelas Mágicas
+Mesmo que nós resolvamos o problema da colisão, ainda não estamos seguros, uma vez que existem as Tabelas Mágicas (em inglês, *Rainbow Tables*).
+
+> Uma tabela mágica é construída calculando o valor hash de palavras comumente usadas, bem como suas combinações.
+
+Essas tabelas podem ter milhões ou mesmo bilhões de registros.
+
+Por exemplo, você pode pegar as palavras contidas em um dicionário e gerar cadeias hash para cada uma dessas palavras. Você também pode começar combinando algumas palavras e criar cadeias hash dessas mesmas palavras. E não é tudo. você pode até mesmo adicionar números antes, depois ou entre as palavras, gerar a cadeia hash e guardá-las nas tabelas também.
+
+Considerando o quão barato é o armazenamento hoje em dia, Tabelas Mágicas gigantes podem ser produzidas e utilizadas.
+
+### Como isso pode ser explorado?
+Imaginemos que uma base de dados grande foi roubada e, nela, tínhamos 10 milhões de cadeias hash de senhas. É muito simples vasculhar uma Tabela Mágica atrás de cada uma dessas cadeias. De fato, nem todas serão encontradas, mas, de qualquer maneira, algumas delas serão!
+
+### Como isso pode ser prevenido?
+Podemos tentar adicionar uma cadeia '*salt*'. Eis um exemplo:
+
+```php
+$password = "easypassword";
+
+// isso pode ser, facilmente, encontrado numa
+// tabela mágica, já que contem a combinação de 2 palavras comuns
+echo sha1($password); // 6c94d3b42518febd4ad747801d50a8972022f956
+
+// use uma cadeia de caracteres randômicos, mais longos que isso, até
+$salt = "#@V)Hu^%Hgfds";
+
+// Isso não será encontrado em uma tabela mágica pré-construída
+eco sha1($salt . $password); // cd56a16759623378628c0d9336af69b74d9d71a5
+```
+
+O que fizemos foi, basicamente, combinar a cadeia *salt* com a senha, antes de converte-los. A cadeia resultante, obviamente, não existirá em uma tabela mágica pré-construída. Mas, ainda não estamos a salvo!
+
+## 6. Problema #3: Tabelas Mágicas (novamente)
