@@ -178,3 +178,57 @@ Tão simples!
 Os dados no vetor devem estar na ordem que serão aplicados aos espaços reservados. `$dados[0]` irá para o primeiro espaço reservado, `$data[1]` para o segundo e assim por diante. Entretanto, se os índices do seu vetor não estão em ordem, isso não funcionará apropriadamente e precisará reordenar o vetor.
 
 ### Espaços Reservados Romeados
+Você, provavelmente, já deve imaginar a sintaxe, mas aqui vai um exemplo:
+
+```php
+# O primeiro argumento é o espaço reservado nomeado
+# Atente: espaços reservados nomeados sempre começam com o `:` (dois pontos)
+$STH->bindParam(':name', $name);
+```
+
+Você pode usar o atalho aqui, também, mas ele funciona com vetores associativos. Veja o exemplo:
+
+```php
+# Os dados que queremos inserir
+$dados = [
+  'name' => 'Cathy',
+  'addr' => 'Rua Borboleta Mecânica',
+  'city' => 'Lugar Nenhum'
+];
+
+# O atalho!
+$STH = $DBH->prapre("INSERT INTO folks (name, addr, city) VALUES (:name, :addr, :city)");
+$STH->execute($data);
+```
+
+As chaves do seu vetor não precisam começar com `:`, mas precisam combinar com o nome dos espaços reservados. Se você tem um vetor de vetores, pode iterá-los e, simplesmente, chamar o método `execute()` para cada vetor de dados.
+
+Outra característica interessante dos espaços reservados nomeados é a habilidade de inserir objetos, diretamente, em sua base de dados, assumindo que as propriedades do objeto combinam com os campos nomeados. Eis um exemplo de um objeto e de como faria para inseri-lo na base de dados:
+
+```php
+# Um simples objeto
+class Pessoa {
+  public $name;
+  public $addr;
+  public $city;
+
+  public function __construct($name, $addr, $city)
+  {
+    $this->name = $name;
+    $this->addr = $addr;
+    $this->city = $city;
+  }
+
+  # etc ...
+}
+
+$cathy = new Pessoa('Cathy', 'Rua Borboleta Mecânica', 'Lugar Nenhum');
+
+# Eis a parte legal
+$STH = $DBH->prepare("INSERT INTO folks (name, addr, city) VALUES (:name, :addr, :city)");
+$STH->execute((array)$cathy);
+```
+
+Ao converter o objeto em uum vetor dentro da execução, as propriedades são tratadas como chaves de um vetor.
+
+## Selecionando Dados
