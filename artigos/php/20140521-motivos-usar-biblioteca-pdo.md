@@ -389,3 +389,4 @@ if ($STH = $DBH->query($sql)) {
 ```
 
 ## Conclusão
+Espero que esse artigo tenha ajuda alguns de vocês a migrarem de vez da extensões MySQL e MySQLi. O que vocês acham? Algum de vocês fará a migração?
