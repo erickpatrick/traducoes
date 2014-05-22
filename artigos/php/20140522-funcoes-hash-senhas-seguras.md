@@ -126,3 +126,40 @@ eco sha1($salt . $password); // cd56a16759623378628c0d9336af69b74d9d71a5
 O que fizemos foi, basicamente, combinar a cadeia *salt* com a senha, antes de converte-los. A cadeia resultante, obviamente, não existirá em uma tabela mágica pré-construída. Mas, ainda não estamos a salvo!
 
 ## 6. Problema #3: Tabelas Mágicas (novamente)
+Lembre-se que uma Tabela Mágica pode ser criada do zero, até mesmo, depois da base de dados ser roubada.
+
+### Como isso pode ser explorado?
+Mesmo que tenha sido usada alguma cadeia *salt*, ela pode ter sido roubada junto da base de dados. Tudo que é preciso fazer é gerar uma nova Tabela Mágica, do zero, mas, dessa vez, concatenando a cadeia *salt* a cada palavra que eles estiverem colocando na tabela (para cada palavra do dicionário, como dito anteriormente).
+
+Por exemplo, em uma Tabela Mágica genérica, `easypassword` pode existir. Contudo, nessa nova Tabela Mágica, eles também tem `f#@V)Hu^%Hgfdseasypassword`. Quando eles executarem contra todas as 10 milhões de cadeias hash roubadas, provavelmente, encontrarão alguma coisa.
+
+### Como isso pode ser prevenido?
+Nós podemos usar uma cadeia *salt* única para cada usuário, ao invés de uma única cadeia *salt* para todos os usuários.
+
+Um candidato para esse tipo de cadeia *salt* é o valor `id` do usuário vindo da base de dados:
+
+```php
+$hash = sha1($user_id . $password);
+```
+
+Isso, claro, assumindo que o número `id` do usuário nunca mude, que, geralmente, é o caso.
+
+Nós também podemos gerar uma cadeia randômica para cada usuário e usa-la como a cadeia *salt* única. Mas, teríamos de ter certeza que também guardamos esse valor na base de dados, em algum lugar.
+
+```php
+function unique_salt()
+{
+	return substr(sha1(mt_rand()), 0, 22);
+}
+
+$unique_salt = unique_salt();
+
+$hash = sha1($unique_salt . $password);
+
+// e não esqueça de salvar a cadeia *salt*
+// ...
+```
+
+Esse método nos pretege de Tabelas Mágicas, porque toda e cada senha foi combinada com uma cadeia *salt* exclusiva. O *hacker* teria de gerar 10 milhões de Tabelas Mágicas diferentes, o que seria bem imprático.
+
+## 7. Problema #4: Velocidade da Conversão
