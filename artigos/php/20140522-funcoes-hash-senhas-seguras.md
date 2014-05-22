@@ -23,4 +23,6 @@ $hash = md5($data);
 echo $hash; // b10a8db164e0754105b7a99be72e3fe5
 ```
 
-Com a função `md5()`, o resultado sempre será uma cadeia de caracteres com 32 caracteres de comprimento. Porém, ela só contem caracteres hexadecimais. Tecnicamente, ela também pode ser representada como um inteiro 128-bi (16 bytes). Você pode converter dados e cadeias de caracteres muito maiores, usando `md5()`, e sempre obterá um hash com esse comprimento.
+Com a função `md5()`, o resultado sempre será uma cadeia de caracteres com 32 caracteres de comprimento. Porém, ela só contem caracteres hexadecimais. Tecnicamente, ela também pode ser representada como um inteiro 128-bi (16 bytes). Você pode converter dados e cadeias de caracteres muito maiores, usando `md5()`, e sempre obterá um hash com esse comprimento. Só esse fator já deve dar um dica do porque ser considerada um função de "mão única".
+
+## 3. Usando uma Função Hash para Salvar Senhas
