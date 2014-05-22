@@ -45,3 +45,49 @@ Uma vez que escolhermos um método hash decente para as senhas, nós iremos impl
 Perceba que a senha original nunca foi guardada em lugar algum. Se a base de dados for roubada, o login do usuário não estará comprometido, certo? Bem, a resposta é "depende". Vejamos alguns problemas em potencial.
 
 ## 4. Problema #1: Colisão de Hash
+"Colisão" de hash ocorre quando dois dados de entrada produzem a mesma cadeia hash final. A probabilidade disso acontecer depende de qual função você estiver usando.
+
+### Como isso pode ser explorado?
+Como exemplo, tenho visto *scripts* antigos que usavam o função [`crc32()`](http://php.net/manual/en/function.crc32.php) para converter as senhas. Essa função um inteiro 32-bit como resultado. Isso significa que só existem 2^32 (2 elevado a 32 potência, ou seja, 4.294.967.296) possibilidades de resultados.
+
+Vamos converter uma senha:
+
+```php
+echo crc32('superscretpassword');
+// retorna 323322056
+```
+
+Agora, assumamos a posição de alguém que roubou uma base de dados e tem as cadeias hash. Nós até não podemo converter o valor 323322056 em "supersecretpassword", entretanto, podemos descobrir outra senha que, ao ser convertida, terá esse mesmo valor, através de um simples *script*:
+
+```php
+set_time_limit(0);
+$i = 0;
+while (true) {
+	if (crc32(base64_encode($i)) == 323322056) {
+		echo base64_encode($i);
+		exit;
+	}
+
+	$i++;
+}
+```
+
+Esse script pode até rodar por um tempo, porém, eventualmente, ele retornará uma cadeia de caracteres. Nós poderemos usar a cadeia retorn &ndash ao invés de "supersecretpassword" &ndash; e ela nos permitirá acessar a conta da pessoa em questão.
+
+Por exemplo, depois de rodar esse mesmo *script* por um tempo em meu computador, obtive a cadeia de caracteres `MTIxMjY5MTAwNg==`. Vamos testar:
+
+```php
+echo crc32('supersecretpassword');
+// retorna 323322056
+
+echo crc32('MTIxMjY5MTAwNg==');
+// retorna 323322056
+```
+
+### Como isso pode ser prevenido?
+Hoje em dia, um computador doméstico, poderoso o suficiente, pode ser usado para executar funções hash quase que 1 bilhão de vezes por segundo. Então, precisamos de uma função a qual a cadeia hash de retorno tenha um alcance **bem** grande.
+
+Por exemplo, a função `md5()` pode servir, uma vez que ela gera cadeias hashes de 128-bit. Isso é o equivalente a 340.282.366.920.938.463.463.374.607.431.768.211.456 possibilidades. É impossível executar vezes o suficiente para encontrar colisões. Contudo, algumas pessoas acharam [maneiras de fazer isso](http://www.mscs.dal.ca/~selinger/md5collision/).
+
+### Sha1
+[`Sha1()`] é uma alternativa e ela gera uma cadeia has ainda maior, com 160-bit.
