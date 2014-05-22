@@ -26,3 +26,22 @@ echo $hash; // b10a8db164e0754105b7a99be72e3fe5
 Com a função `md5()`, o resultado sempre será uma cadeia de caracteres com 32 caracteres de comprimento. Porém, ela só contem caracteres hexadecimais. Tecnicamente, ela também pode ser representada como um inteiro 128-bi (16 bytes). Você pode converter dados e cadeias de caracteres muito maiores, usando `md5()`, e sempre obterá um hash com esse comprimento. Só esse fator já deve dar um dica do porque ser considerada um função de "mão única".
 
 ## 3. Usando uma Função Hash para Salvar Senhas
+O processo normal, durante o registro de um usuário é:
+
+- Usuário preenche o formulário de cadastro, incluindo o campo da senha;
+- O *script* web guarda toda essa informação em uma base de dados;
+- Entretanto, a senha passar por uma função hash, antes de ser salva;
+- A versão original da senha não é salva em qualquer lugar, então, tecnicamente, ela é descartada.
+
+E o processo de login:
+
+- Usuário digita o nome de usuário escolhido (ou e-mail) e a senha;
+- O *script* roda a senha pela mesma função hash usada anteriormente;
+- O *script* procura pelo usuário na base de dados e, se encontrar algum, lê a cadeia hash salva;
+- Ambos os valores (senha pós script e hash), garantindo acesso se elas combinarem;
+
+Uma vez que escolhermos um método hash decente para as senhas, nós iremos implementar o processo mais para o final do artigo.
+
+Perceba que a senha original nunca foi guardada em lugar algum. Se a base de dados for roubada, o login do usuário não estará comprometido, certo? Bem, a resposta é "depende". Vejamos alguns problemas em potencial.
+
+## 4. Problema #1: Colisão de Hash
