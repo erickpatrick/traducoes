@@ -46,11 +46,12 @@ Bases de dados diferentes podem ter métodos de conexão ligeiramente diferentes
 ```php
 try {
 	# Conexão com MS SQL SERVER e Sybase usando PDO_DBLIB
-	$DBH = new PDO("mssql:host=$servidor;dbname=$baseDeDados, $usuario, $senha");
-	$DBH = new PDO("sybase:host=$servidor;dbname=$baseDeDados, $usuario, $senha");
+	$DBH = new PDO("mssql:host=$servidor;dbname=$baseDeDados", $usuario, $senha);
+	$DBH = new PDO("sybase:host=$servidor;dbname=$baseDeDados", $usuario, $senha);
+  $DBH = new PDO("sqlsrv:Server=$servidor;Database=$baseDeDados", $usuario, $senha);
 
 	# Conexão com MySQL via PDO_MYSQL
-	$DBH = new PDO("mysql:host=$servidor;dbname=$baseDeDados, $usuario, $senha");
+	$DBH = new PDO("mysql:host=$servidor;dbname=$baseDeDados", $usuario, $senha);
 
 	# Conexão com SQLite usando PDO_SQLITE
 	$DBH = new PDO("sqlite:caminho/para/minha/base/de/dados/baseDeDados.db");
