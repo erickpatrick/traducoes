@@ -259,7 +259,7 @@ Esse tipo de busca cria um vetor associativo, indexado por nome de coluna. Ele d
 # para preparar nessa seleção
 $STH = $DBH->query("SELECT name, addr, city FROM folks");
 
-# Selecionando o tipo de busca/retorno
+# Definindo o tipo de busca/retorno
 $STH->setFetchMode(PDO::FETCH_ASSOC);
 
 while($row = $STH->fetch()) {
@@ -272,3 +272,21 @@ while($row = $STH->fetch()) {
 Essa repetição passará por todo os resultados, um de cada vez.
 
 ### FETCH_OBJ
+Esse tipo de busca cria um objeto do tipo `STDCLASS` para cada registro retornado. Eis um exemplo:
+
+```php
+# criando a sentença
+$STH = $DBH->query("SELECT name, addr, city FROM folks");
+
+# Definindo o tipo de busca/retorno
+$STH->setFetchMode(PDO::FETCH_OBJ);
+
+# Mostrando os resultados
+while ($row = $STH->fetch()) {
+  echo $row->name . "\n";
+  echo $row->addr . "\n";
+  echo $row->city . "\n";
+}
+```
+
+### FETCH_CLASS
