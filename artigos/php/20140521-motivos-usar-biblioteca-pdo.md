@@ -252,3 +252,23 @@ $STH->setFetchMode(PDO::FETCH_ASSOC);
 ```
 
 ### FETCH_ASSOC
+Esse tipo de busca cria um vetor associativo, indexado por nome de coluna. Ele deve ser bem familiar para qualquer pessoa que já usou as extensões MySQL/MySQLi. Eis um exemplo de como selecionar dados com esse método:
+
+```php
+# usando o método atalho `query()`, uma vez que não há valores
+# para preparar nessa seleção
+$STH = $DBH->query("SELECT name, addr, city FROM folks");
+
+# Selecionando o tipo de busca/retorno
+$STH->setFetchMode(PDO::FETCH_ASSOC);
+
+while($row = $STH->fetch()) {
+  echo $row['name'] . '\n';
+  echo $row['addr'] . '\n';
+  echo $row['city'] . '\n';
+}
+```
+
+Essa repetição passará por todo os resultados, um de cada vez.
+
+### FETCH_OBJ
