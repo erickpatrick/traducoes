@@ -290,3 +290,62 @@ while ($row = $STH->fetch()) {
 ```
 
 ### FETCH_CLASS
+> As propriedades do seu objeto são atribuidas ANTES do construtor ser chamado. Isso é importante.
+
+Esse modo permite você buscar dados diretamente em uma classe de sua escolha. Quando você usa o `FETCH_CLASS`, as propriedades do seu objeto são atribuidas ***ANTES** do construtor ser chamado. Leia novamente, isso é importante. Se qualquer campo da tabela não tiver uma propriedade equivalente, será criado uma propriedade pública na classe para você.
+
+Isso significa que se seus dados precisam de qualquer transformação depois que eles vem da base de dados, essa transformação pode ser feita automaticamente pelo seu objeto de acordo assim que cada um deles é criado.
+
+Como um exemplo, imagina uma situação onde o endereço precisa ser modificado para cada registro. Nós poderíamos fazer isso, alterando essa propriedade dentro do método construtor. Veja um exemplo:
+
+```php
+class PessoaSecreta {
+  public $name;
+  public $addr;
+  public $city;
+  public $other_data;
+
+  public function __construct($other = '')
+  {
+    $this->address = preg_replace('/[a-z]/', 'x', $this->address);
+    $this->other_data = $other;
+  }
+}
+```
+
+Assim que um dos registro é vinculado a essa classe (lembre, uma classe é uma espécie de módelo/forma para objetos), o endereço tem todos seus caracteres alfabéticos substituídos pela letra *x*. Agora, usar essa classe e fazer com que os dados sejam transformados é totalmente transparente:
+
+```php
+$STH = $DBH->query("SELECT name, addr, city FROM folks");
+$STH->setFetchMode(PDO::FETCH_CLASS, 'PessoaSecreta');
+
+while ($obj = $STH->fetch()) {
+  echo $obj->addr;
+}
+```
+
+Se o endereço era "Rua Borboleta 5", você verá "Rxx Bxxxxxxx 5" como resultado. Claro, há inúmeras outras situações onde você pode querer que o método construtor seja chamado antes dos dados serem vinculados. A PDO também permite isso:
+
+```php
+$STH->setFetchMode(PDO::FETCH_CLASS | PDO::FETCH_PROPS_LATE, 'PessoaSecreta');
+```
+
+Agora, quando você repetir o exemplo anterior, usando esse modo (PDO::FETCH_PROPS_LATE), o endereço não será obscurecido, uma vez que o construtor será chamado e as propriedades só depois serão atribuidas.
+
+Finalmente, se você realmente precisar, você pode passar argumentos para o método construtor enquanto busca os dados e passa-os para objetos usando PDO:
+
+```php
+$STH->setFetchMode(PDO::FETCH_CLASS, 'PessoaSecreta', ['dados']);
+```
+
+Se precisar passar ddos diferentes para cada objeto, você pode atribuir o tipo de busca/retorno dentro do método `fetch()`:
+
+```php
+$i = 0;
+while ($registroObj = $STH->fetch(PDO::FETCH_CLASS, 'PessoaSecreta', [$i])) {
+  // Realize as operações
+  $i ++;
+}
+```
+
+## Outros Métodos Úteis
