@@ -163,3 +163,107 @@ $hash = sha1($unique_salt . $password);
 Esse método nos pretege de Tabelas Mágicas, porque toda e cada senha foi combinada com uma cadeia *salt* exclusiva. O *hacker* teria de gerar 10 milhões de Tabelas Mágicas diferentes, o que seria bem imprático.
 
 ## 7. Problema #4: Velocidade da Conversão
+A maioria das funções hash foram projetas com velocidades em mente, porque, frequentemente, elas são usadas para calcular os valores *checksum* (soma de verificação) para conjudos de dados grandes, e também de arquivos, para verificar a integridade dos mesmos.
+
+### Como isso pode ser explorado?
+Como mencionei anteriormente, um computador moderno com um GPU poderosa (sim, placas de vídeo), podem ser programados para calcular alguns bilhões de cadeias hash por segundo. Dessa forma, eles podem ser usados para ataques de força bruta, tentando todo tipo de senha possível.
+
+Você pode achar que requerer que a senhas de 8 caracteres de comprimento livrarão você de ataques de força bruta. Vamos verificar se isso é verdade:
+
+- Se a senha puder ter somente letras minúsculas, maiúsculas e números, teremos 62 caracteres possíveis de utilizar; 
+- Uma senha com 8 caracteres de comprimento pode ter 62 ^ 8 possibilidades, ou um pouco mais de 218 trilhões;
+- A uma taxa de 1 bilhão de cadeias hash pode segundo, podemos resolver esse "problema" em 60 horas.
+
+E, para pessoas com comprimento de 6 caracteres, o que é bem comum, levaria menos de 1 minuto.
+
+Sinta-se livre a requerer senhas com 9 ou 10 caracteres de comprimento, mas, você pode começar a chatear seus usuários.
+
+### Como isso pode ser prevenido?
+Use uma função hash mais lenta.
+
+> Imagine que você usa uma função que só pode ser utilizada 1 milhão de vezes por segundo em um mesmo hardware, ao invés dos 1 bilhão de vezes. Levaria cerca de 1000x mais para tentar um ataque de força bruta. Ou seja, 60 horas virariam 70 anos!
+
+Uma maneira de fazer isso seria implementar você mesmo:
+
+```php
+function myHash($password, $unique_salt)
+{
+	$salt = "f#@V)Hu^%Hgfds";
+	$hash = sha1($unique_salt . $password);
+
+	for ($i = 0; $i < 1000; $i++) {
+		$hash = sha1($hash);
+	}
+
+	return $hash;
+}
+```
+
+Ou talvez que usar um algoritmo que dê suporte ao uso do "parâmetro de custo", como o **BLOWFISH**. no PHP, ele pode ser usado através da função `crypt()`.
+
+```php
+function myHash($password, $unique_salt)
+{
+	// a cadeia salt para o algortimo BLOWFISH deve
+	// possuir comprimento de 22 caracteres
+	return crypt($password, "$2a$10$" . $unique_salt);
+}
+```
+
+O segundo parâmetro da função `crypt()` contem alguns valores separados pelo sinal de dólar (`$`).
+
+O primeiro valor é `$2a`, que indica que queremos usar o algoritmo BLOWFISH.
+
+O segundo valor, `$10` nesse caso, é o "parâmetro de custo". Esse é o valor em base binária, de quantas iterações ele rodará (10 => 2 ^ 10 = 1024 iterações). Esse número pode variar de 04 a 31.
+
+Vamos executar um exemplo:
+
+```php
+function myHash($password, $unique_salt)
+{
+	return crypt($password, '$2a$10$' . $unique_salt);
+}
+
+function unique_salt()
+{
+	return substr(sha1(mt_rand()), 0, 22);
+}
+
+$password = "verysecret";
+
+echo myHash($password, unique_salt());
+// resultado: $2a$10$dfda807d832b094184faeu1elwhtR2Xhtuvs3R9J1nfRGBCudCCzC
+```
+
+A cadeia hash resultante o algoritmo `$2a`, o parâmetro de custo `$10`, e a cadeia *salt* de 22 caracteres. O resto é o resultado do cálculo hash. Vamos executar um teste:
+
+```php
+// Assumamos que essa cadeia tenha sido obtida de uma base de dados
+$hash = '$2a$10$dfda807d832b094184faeu1elwhtR2Xhtuvs3R9J1nfRGBCudCCzC';
+
+// Assumamos que essa é a senha que o usuário usou para acessar novamente
+$password = 'verysecret';
+
+if (check_password($hash, $password)) {
+	echo "Acesso Garantido!";
+} else {
+	echo "Acesso Negado!";
+}
+
+function check_password($hash, $password)
+{
+	// Os primeiros 29 caracteres incluem o algoritmo, custo e cadeia *salt*
+	// Vamos chama-los de $full_salt
+	$full_salt = substr($hash, 0, 29);
+
+	// executemos a função hash na senha
+	$new_hash = crypt($password, $full_hash);
+
+	// retorna verdadeiro ou falso
+	return ($hash == $new_hash);
+}
+```
+
+Quando executado, você verá "Acesso Garantido!";
+
+## 8. Tudo Junto
