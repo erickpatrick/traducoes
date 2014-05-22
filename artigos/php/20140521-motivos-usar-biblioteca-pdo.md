@@ -177,7 +177,7 @@ Tão simples!
 
 Os dados no vetor devem estar na ordem que serão aplicados aos espaços reservados. `$dados[0]` irá para o primeiro espaço reservado, `$data[1]` para o segundo e assim por diante. Entretanto, se os índices do seu vetor não estão em ordem, isso não funcionará apropriadamente e precisará reordenar o vetor.
 
-### Espaços Reservados Romeados
+### Espaços Reservados Nomeados
 Você, provavelmente, já deve imaginar a sintaxe, mas aqui vai um exemplo:
 
 ```php
