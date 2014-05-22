@@ -348,3 +348,16 @@ if (PassHash::check_password($user['pass_hash'], $_POST['password'])) {
 ```
 
 ## 9. Alguns Pontos em Relação à Disponibilidade do Algoritmo Blowfish
+O algoritmo Blowfish pode não estar implementado em todos os sistemas, mesmo que, hoje, ele seja bastante popular. Você pode checar se o seu sistema possui o algoritmo instalado, através do seguinte código:
+
+```php
+if (CRYPT_BLOWFISH === 1) {
+  echo "Sim";
+} else {
+  echo "Não";
+}
+```
+
+Entretanto, desde o PHP 5.3, você não precisa se preocupar, o PHP vem com sua própria implementação do algoritmo, por padrão.
+
+## Conclusão
