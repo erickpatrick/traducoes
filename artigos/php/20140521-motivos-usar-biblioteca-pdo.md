@@ -121,5 +121,60 @@ $STH->execute();
 
 Você também poderia realizar essa operação através do método `exec()`, usando uma chamada de método a menos. Na maioria das situações, você usará o método mais long para que possa aproveitar das sentenças preparadas. Mesmo se você usa-la uma única vez, usar sentenças preparadas ajudará você a se proteger de ataques de injeção de SQL.
 
-## Sentenças Preparadas
+### Sentenças Preparadas
 > Usar sentenças preparadas ajudará você a se proteger de injeções de SQL
+
+Uma sentença preparada é uma sentença SQL precompilada que pode ser usada inúmeras vezes, enviando somente os dados para o servidor. Elas tem a vantagem de, automaticamente, tornar seguros, em relação a ataques de injeção SQL, os dados usados nos espaços reservados.
+
+Você faz uso de uma sentença preparada ao incluir espaços reservados em suas SQL. Logo abaixo, temos três exemplos: uma sem espaços reservados, uma com espaços sem nomes e a última com espaços nomeados.
+
+```php
+# sem espaços reservados - pronto para injeção de SQL!
+$STH = $DBH->prepare("INSERT INTO folks (name, addr, city) VALUES ($name, $addr, $city)");
+
+# espaços reservados sem nomes
+$STH = $DBH->prepare("INSERT INTO folks (name, addr, city) VALUES (?, ?, ?)");
+
+# espaços reservados com nomes
+$STH = $DBH->prepare("INSERT INTO folks (name, addr, city) VALUES (:name, :addr, :city)");
+```
+
+Você deve evitar o primeiro método, uma vez que está aqui só para comparação. A escolha por espaços reservados com ou sem nome afetará como você atribui os dados em suas sentenças.
+
+### Espaços Reservados Sem Nome
+```php
+# atribui as variáveis a cada espaço reservado, usando índices de 1 a 3
+$STH->bindParam(1, $name);
+$STH->bindParam(2, $addr);
+$STH->bindParam(3, $addr);
+
+# insere um novo registro
+$name = "Daniel";
+$addr = "Rua São João";
+$city = "Teresina";
+$STH->execute();
+
+# insere outro registro, com outros valores
+$name = "Jonas";
+$addr = "Rua Albertão";
+$city = "Rio de Janeiro";
+$STH->execute();
+```
+
+Há dois passos aqui. Primeiro, nós indicamos os vários espaços reservados (linhas 2 a 4). Depois, atribuimos valores a esses espaços reservados e executamos as sentenças. Para enviar outro conjunto de dados, basta modificar os valores dessas variáveis e executar a sentença novamente.
+
+Isso parece um pouco difícil de lidar quando se tem vários parâmetros? E é! Entretanto, se seus dados são guardados em um vetor, há um atalho:
+
+```php
+# os dados que queremos inserir
+$dados = ["Cathy", "Rua Borboleta Mecânica", "Lugar nenhum"];
+
+$STH = $DBH->prepare("INSERT INTO folks (name, addr, city) VALUES (?, ?, ?)");
+$STH->execute($data);
+```
+
+Tão simples!
+
+Os dados no vetor devem estar na ordem que serão aplicados aos espaços reservados. `$dados[0]` irá para o primeiro espaço reservado, `$data[1]` para o segundo e assim por diante. Entretanto, se os índices do seu vetor não estão em ordem, isso não funcionará apropriadamente e precisará reordenar o vetor.
+
+### Espaços Reservados Romeados
