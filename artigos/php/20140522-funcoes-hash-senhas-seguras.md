@@ -90,7 +90,7 @@ Hoje em dia, um computador doméstico, poderoso o suficiente, pode ser usado par
 Por exemplo, a função `md5()` pode servir, uma vez que ela gera cadeias hashes de 128-bit. Isso é o equivalente a 340.282.366.920.938.463.463.374.607.431.768.211.456 possibilidades. É impossível executar vezes o suficiente para encontrar colisões. Contudo, algumas pessoas acharam [maneiras de fazer isso](http://www.mscs.dal.ca/~selinger/md5collision/).
 
 ### Sha1
-[`Sha1()`] é uma alternativa e ela gera uma cadeia has ainda maior, com 160-bit.
+[`Sha1()`](http://us3.php.net/manual/en/function.sha1.php) é uma alternativa e ela gera uma cadeia has ainda maior, com 160-bit.
 
 ## 5. Problema #2: Tabelas Mágicas
 Mesmo que nós resolvamos o problema da colisão, ainda não estamos seguros, uma vez que existem as Tabelas Mágicas (em inglês, *Rainbow Tables*).
