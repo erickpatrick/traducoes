@@ -1,6 +1,6 @@
 ### 52 semanas de Experiência do Usuário
 #### Semana 1
-- [A Primeira Regra da Experiência do Usuário]() - Em Andamento
+- [A Primeira Regra da Experiência do Usuário](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/20140512-primeira-regra-experiencia-usuario.md)
 
 Futuras Traduções
 -----------------
