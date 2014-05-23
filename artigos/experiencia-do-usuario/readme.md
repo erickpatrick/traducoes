@@ -1,4 +1,4 @@
-### [52 semanas de Experiência do Usuário](./52-semanas-experiencia-do-usuario)
+### [52 semanas de Experiência do Usuário](./52-semanas-experiencia-do-usuario/)
 
 Futuras Traduções
 -----------------
