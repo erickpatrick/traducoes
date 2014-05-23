@@ -5,6 +5,7 @@
 
 #### Semana 2
 - [Resolva Problemas Existentes](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/20140523-resolver-problemas-existentes.md)
+- [As Soluções são Fáceis se Você Conhece o Problema]() - Em Andamento
 
 Futuras Traduções
 -----------------
