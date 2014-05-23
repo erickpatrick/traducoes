@@ -5,7 +5,7 @@ Créditos<br/>
 
 ![A Lâmpada de Edison](http://media.tumblr.com/tumblr_kw5a9yKmdA1qz7ace.jpg "A Lâmpada de Edison")
 
->> Bom design é o que resolve problemas. &ndash; *Jeffrey Veen*
+> Bom design é o que resolve problemas. &ndash; *Jeffrey Veen*
 
 Você poderia, facilmente, dizer que o bom design, na prática, soluciona problemas.
 
