@@ -3,6 +3,8 @@ O que Constitui a Experiência do Usuário
 Créditos<br/>
 <small>Autor original: [Joshua Brewer](http://jbrewer.me/)<br/>[Artigo original](http://52weeksofux.com/post/322319598/what-makes-the-user-experience)</small>
 
+![Chairworth](http://media.tumblr.com/tumblr_kvwcyz6wgk1qz7ace.jpg "Chairworth")
+
 A experiência do usuário é feita de todas as interações que uma pessoa tem com uma marca, empresa ou organização. Isso pode incluir interações com o software, site, central de atendimento ao cliente, propagandas, um adesivo no computador de outra pesoal, aplicação móvel, conta de Twitter, por e-mail ou mesmo cara-a-cara. A soma de todas essas interações, através do tempo, é a experiência do usuário.
 
 O designer de interação planeja todos esses momentos. Parte da responsabilidade deles é fazer com que todas as interações sejam positivas e sejam elas através de software, textos, gráficos, layout, pecursos ou físicas. É uma vergonha ver parte da experiência ser de ponta e outra parte um fracasso. Coesão é importante.
