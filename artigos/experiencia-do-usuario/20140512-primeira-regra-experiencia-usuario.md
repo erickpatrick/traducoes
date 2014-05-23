@@ -7,7 +7,7 @@ Créditos<br/>
 
 > "Você não pode não comunicar. Todo comportamento é um uma forma de comunicação. Uma vez que todo comportamente não tem uma contra-parte (não existe algo como anti-comportamento), não pe possível não comunicar" &mdash; O Primeiro Axioma da Comunicação, por *Paul Watzlawick*
 
-Essa é a primeira regra da experiência do usuário (ou, simplesmente, UX). Tudo que um designer faz **afeta** a experiência do usuário. Pela adição proposital de um elemento à omissão negligente de uma mensagem crucial, toda decisão moda o futuro das pessoas para quem projetamos.
+Essa é a primeira regra da experiência do usuário (ou, simplesmente, UX). Tudo que um designer faz, **afeta** a experiência do usuário. Pela adição proposital de um elemento à omissão negligente de uma mensagem crucial, toda decisão moda o futuro das pessoas para quem projetamos.
 
 Assim, um dos objetivos primários de qualquer designer bom é o de comunicar a mensagem intendida... aquela que leva uma positiva experiência para o usuário. A revisão do texto, as cores do texto, o alinhamento das etiquetas (labels) dos formulários, usar letras de forma ou preferir tudo em letras minúsculas nos links de navegação&ndash;até mesmo a ausência desse padrão de design&ndash;fazem parte da comunicação.
 
