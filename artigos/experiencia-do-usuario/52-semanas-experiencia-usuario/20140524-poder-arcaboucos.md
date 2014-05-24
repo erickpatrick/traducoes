@@ -7,7 +7,7 @@ Créditos<br/>
 
 > "O poder dos arcabouços ainda está para ser descoberto como uma das maiores oportunidades para os designers" &ndash; Liz Danzico
 
-Então, se somos [criadores de estruturas](http://52weeksofux.com/post/396763415/makers-of-frames), que tipo de arcabouços (do inglês, *framework*) estamos fazendo?
+Então, se somos [criadores de estruturas](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140524-criadores-estruturas.md), que tipo de arcabouços (do inglês, *framework*) estamos fazendo?
 
 **Arcabouços estruturais**: Afeta a forma como nos movimentando pelo espaço. Criar espaços que as pessoas vivam e usem. *Offline* conhecida como arquitetura. *Online* conhecida como design de interação/arquitetura da informação. Nós criamos as possibilidades para ação. Dessa forma, uma página web é como um quarto... com certas oportunidades e restrições. Você pode entrar por certar portas (links, motores de busca, envio de formulários, etc), realizar algumas ações lá e, então, sair. Páginas (e quartos) bem projetados servem a um propósito específico. Comer na sala de jantar é o melhor... já comer no banheiro não é uma boa experiência.
 

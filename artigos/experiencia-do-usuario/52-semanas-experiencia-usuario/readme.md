@@ -25,3 +25,4 @@
 
 #### Semana 7
 - [O Poder dos Arcabouços](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140524-poder-arcaboucos.md)
+- [Criadores de Estruturas](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140524-criadores-estruturas.md)
