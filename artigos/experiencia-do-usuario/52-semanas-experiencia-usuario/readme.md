@@ -17,4 +17,4 @@
 
 #### Semana 5
 - [Utilidade vs. Beleza](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140523-utilidade-vs-beleza.md)
-- [Sonhadores do dia]()
+- [Sonhadores do dia](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140523-sonhadores-dia.md)
