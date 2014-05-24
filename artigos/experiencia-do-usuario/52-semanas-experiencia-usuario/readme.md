@@ -22,3 +22,6 @@
 #### Semana 6
 - [O Ciclo de Vida da Utilização](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140523-ciclo-vida-utilizacao.md)
 - [Você Não é Seu Usuário](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140523-voce-nao-e-seu-usuario.md)
+
+#### Semana 7
+- [O Poder dos Arcabouços](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140524-poder-arcaboucos.md)
