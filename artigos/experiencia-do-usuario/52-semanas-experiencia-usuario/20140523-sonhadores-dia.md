@@ -1,4 +1,4 @@
-Utilidade vs. Beleza
+iPad: Para Qual Público?
 ============================
 Créditos<br/>
 <small>Autor original: [Joshua Brewer](http://jbrewer.me/)<br/>[Artigo original](http://52weeksofux.com/post/372655370/utility-vs-beauty)</small>
