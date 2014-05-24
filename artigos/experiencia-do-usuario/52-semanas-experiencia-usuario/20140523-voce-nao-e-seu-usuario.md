@@ -1,4 +1,4 @@
-O Ciclo de Vida da Utilização
+Você Não É Seu Usuário
 ============================
 Créditos<br/>
 <small>Autor original: [Joshua Brewer](http://52weeksofux.com/post/385981879/you-are-not-your-user)</small>
