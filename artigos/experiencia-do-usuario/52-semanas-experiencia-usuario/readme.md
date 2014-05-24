@@ -16,4 +16,4 @@
 - [iPad: Para Qual Público?](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140523-ipad-qual-audiencia.md)
 
 #### Semana 5
-- [Utilidade vs. Beleza]() - Em Andamento
+- [Utilidade vs. Beleza](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140523-utilidade-vs-beleza.md)
