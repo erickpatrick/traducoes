@@ -1,14 +1,14 @@
-iPad: Para Qual Público?
+Sonhadores do Dia
 ============================
 Créditos<br/>
-<small>Autor original: [Joshua Brewer](http://jbrewer.me/)<br/>[Artigo original](http://52weeksofux.com/post/372655370/utility-vs-beauty)</small>
+<small>Autor original: [Joshua Brewer](http://52weeksofux.com/post/372655283/dreamers-of-day)</small>
 
-![Escrivaninha de escritor cheia de livros](http://media.tumblr.com/tumblr_kxdr2xiI6w1qz7ace.jpg "Escrivaninha de escritor cheia de livros")
+![Seleção de Traços](http://media.tumblr.com/tumblr_kxdsu1m2Gf1qz8ohs.png "Seleção de Traços")
 
-Um bom designer sempre trabalha para manter a forma, função e qualidade estética de um design em equilíbrio durante o tempo do projeto. Só porque algo parece bonito, não quer dizer que ele é útil. E só porque algo é útil, não quer dizer que ela é bonita.
+Designers são um tipo bem característico: criativos, temperamentais, pensativos, sabidos e esquisitos. Mas, uma característica que separa os designers dos outros é a *ação*. Eles criar coisas que não existiam antes. Eles pegam uma ideia bem lá do fundo da mente deles e a externalizam, trasnformando-as em um desenho, protótipo ou produto. Diferente das outras pessoas, eles não ficam só nas ideias. Eles não ficam só na discução da ideia. Eles imaginam algo para, depois, descarta-lo. Eles *agem*!
 
-Mais frequente que queiramos adimitir, embelezamos&ndash;ou pior, usamos a tendência atual mais popular&ndash;para esconder as áreas que nós, simplesmente, não conseguimos obter uma solução elegante, apropriada àquele problema. É muito fácil cair na tentação de "fazer parecer bonito" sem considerar o propósito verdadeiro e atual do design.
+Eles são, nas palavras de T. E. Lawrence, *sonhadores do dia*:
 
-Ao mesmo tempo, um designer deveria entender que até mesmo o produto mais útil pode se beneficiar de reginamento estético, mesmo que sútil, e deixar de ser um objeto simplório, apesar de necessário, para algo engajador e interessante (e continuar sendo necessário).
+> "Todos os homens sonha; mas não da mesma forma<br/>Aqueles que sonham pela noite, no tempestuoso<br/>recesso de suas mentes<br/>Acordam para descobrir que tudo era presunção;<br/>Mas, os sonhadores do dia são homens perigoso.<br/>Eles são capazes de tornar seus sonhos possíveis, mesmo<br/>de olhos bem abertos".
 
-A solução mais elegante levará a um design que é elegante dentro de suas limitações&ndash;tanto útil quanto bonito.
+*T. E. Lawrence* (também conhecido como Lawrence das Arabias)
