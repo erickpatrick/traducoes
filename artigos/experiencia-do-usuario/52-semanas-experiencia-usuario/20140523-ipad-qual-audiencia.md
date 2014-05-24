@@ -17,7 +17,7 @@ Os humanos sofrem de um ponto de vista subjetivo. Nós nos vemos no centro do un
 
 Os designers de experiência do usuário, contudo, não podem passar por isso. Nós devemos projetar (e, claro, criticar outros designs e designers) de um ponto de vista mais objetivo.
 
-Assim que nosso subjetivismo some, podemos pensar em reavaliar um aparelho como o iPad. Na época, os vídeos e resenha iniciais indicavam que ele tornava várias atividades extremamente simples de realizar, como ver email, assistir videos, compartilhar fotos. E o tempo provou que o é; Então, vamos perguntar> "A quem, a qual mercado, o iPad é atrativo?"
+Assim que nosso subjetivismo some, podemos pensar em reavaliar um aparelho como o iPad. Na época, os vídeos e resenha iniciais indicavam que ele tornava várias atividades extremamente simples de realizar, como ver email, assistir videos, compartilhar fotos. E o tempo provou que o é; Então, vamos perguntar: "A quem, a qual mercado, o iPad é atrativo?"
 
 O iPad (bem como outros alguns outros tablets) é atrativo para aquelas pessoas que considerão um notebook um trabalho pesado. Muitas esposas, pais e crianças em nossas vidas não usam computadores da mesma forma que nós. Eles, provavelmente, são a público alvo principal desse aparelho... as pessoas que não precisam de renderização de subpixel mas se dão muito bem com a precisão manual. Eles podem usar o iPad na cozinha, na sala de estar, no quarto e até no banheiro, em alguns lugares, até no escritório, como equipamento principal...
 

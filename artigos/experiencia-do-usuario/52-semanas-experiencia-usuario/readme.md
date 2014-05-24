@@ -13,4 +13,4 @@
 
 #### Semana 4
 - [Limites Ajudam a Criatividade](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140523-limites-criatividade.md)
-- [iPad: Para Qual Público?]() - Em Andamento
+- [iPad: Para Qual Público?](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140523-ipad-qual-audiencia.md)
