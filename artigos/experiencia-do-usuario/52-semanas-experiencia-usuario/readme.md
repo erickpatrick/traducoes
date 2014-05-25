@@ -34,3 +34,6 @@
 #### Semana 9
 - [Torne Menos em Mais](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140524-torne-menos-mais.md)
 - [Alterando Situações Existentes](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140524-alterando-situacoes-existentes.md)
+
+#### Semana 10
+- [Hierarquia Visual](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140525-hierarquia-visual.md)
