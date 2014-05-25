@@ -30,3 +30,6 @@
 #### Semana 8
 - [Bom Design É...](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140524-bom-design-e.md)
 - [Interface do Usuário como Atendimento ao Cliente](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140524-interface-usuario-atendimento-cliente.md)
+
+#### Semana 9
+- [Torne Menos em Mais](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140524-torne-menos-mais.md)
