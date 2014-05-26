@@ -76,3 +76,32 @@ Esse é um bom seletor com um bom objetivo. Nós estamos selecionando esse eleme
 Mantenha seus seletores tão explícitos e específicos quanto puder, de preferência que ele seja uma classe a qualquer outra coisa. Aplicar estilos específicos a um seletor vago é muito perigoso. Um seletor genérico sempre deveria carregar estilos genéricos e se você quer mirar algo em particular, você deveria criar uma classe. **Objetivos específicos requerem seletores específicos**.
 
 ## Exemplo da vida real
+Um exemplo muito bom de quando eu me embananei com relação a isso, foi em um projeto que fiz para a Sky. Eu tinha um seletor que era, simplesmente `#content table {}` (ARGH! até usei um ID!!!). Esse é um seletor muito problemático por três razões: primeiro, ele [usa um id e não deveria fazê-lo](http://csswizardry.com/2011/09/when-using-ids-can-be-a-pain-in-the-class/); segundo, ele tem uma especificidade muito maior do que precisa ter; e, terceiro&mdash;e mais importante&mdash;ele tem um objetivo de seletor muito ruim. Eu não estava estilizando essas tabelas por elas estavam dentro de  `#content`, isso aconteceu porque foi como a DOM veio e acabei escolhendo essa maneira de mirá-los. *Erro todo meu*, nessa.
+
+Nas primeiras semanas, estava tudo ótimo, mas, de repente, precisamos adicionar outras tabelas dentro de `#content` que não eram para parecer, nem um pouco, com as anteriores. Oh, não! Meu seletor antigo era muito abrangente, agora, tinha de desfazer os estilos de todas as tabelas dentro de `#content div`. Se tivesse criado um seletor com melhor objetivo. Ao invés disso:
+
+```css
+#content table {
+	[estilos da tabela foo]
+}
+
+#content .bar {
+	[desfazer os estilos foo]
+	[criar estilos da tabela .bar]
+}
+```
+
+Eu deveria ter feito isso:
+
+```css
+.foo {
+	[estilos foo]
+}
+.bar {
+	[estilos bar]
+}
+```
+
+E teria muito menos dores de cabeça. Pensando no futuro e tendo um seletor com muito mais objetivo, eu não teria tido tantos problemas...
+
+## Exceções
