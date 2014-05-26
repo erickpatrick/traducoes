@@ -105,3 +105,25 @@ Eu deveria ter feito isso:
 E teria muito menos dores de cabeça. Pensando no futuro e tendo um seletor com muito mais objetivo, eu não teria tido tantos problemas...
 
 ## Exceções
+Claro, sempre há *exceções*. É prefeitamente aceitável ter seletores como `.main-nav > li`, onde seu seletor chave é um seletor de tipo. Faz todo o sentido selecionar tdoso os `a` dentro de algo, mais ou menos assim:
+
+```css
+html {
+	color:#333;
+	background-color:#fff;
+}
+
+/*Esquema de cores invertidos para itens promocionais*/
+.promo {
+	color:#fff;
+	background-color:#333;
+}
+	.promo a {
+		color:#fff;
+		text-decoration:underline;
+	}
+```
+
+Essa é uma maneira considerável de utilizar um seletor abrangente para estilizar todos os `a`s, apesar de parecer um carpete cheio de bombas.
+
+## Palavras finais
