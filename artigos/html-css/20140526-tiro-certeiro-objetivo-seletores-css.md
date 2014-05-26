@@ -127,3 +127,44 @@ html {
 Essa é uma maneira considerável de utilizar um seletor abrangente para estilizar todos os `a`s, apesar de parecer um carpete cheio de bombas.
 
 ## Palavras finais
+Em geral, ao invés de criar um carpete de bombas com seus elementos e seletores, seja certeiro; seja específico e explícito. Garanta que o objetivo do seletor é preciso e direcionado.
+
+Pense bem sobre o porque você querer direcionar algo e escolha o seletor mais específico possível. Refine o objetivo do seu seletor. Você quis isso:
+
+```css
+.header em {}
+```
+
+ou isso?
+
+```css
+.tagline {}
+```
+
+Você quer isso:
+
+```css
+.footer p {}
+```
+
+ou você, realmente, quer isso?
+
+```css
+.copyright {}
+```
+
+É inteligente fazer isso:
+```css
+.sidebar form {}
+```
+
+ao invés disso?
+```css
+.search-form {}
+```
+
+Considere o objetivo dos seus seletores CSS. Você está sendo específico o suficiente? Os seus seletores estão combinando, perfeitamente, com as coisas que você quer pelas razões certas? Ou tudo está saindo sem querer? Seja certeiro. Seja um *sniper* do CSS, não um cara que coloca bombas, correndo perigo.
+
+A propósito, optar por mudar seletores longos como `.header ul` por algo como `.main-nav` também ajudará a reduzir a especificidade e aumentará a eficiência dos seletores: vitória-vitória-vitória!
+
+É importante lembrar que o [Jonathan Snook] escreveu algo parecido, chamado [*profundidade de aplicação*](http://smacss.com/book/applicability)...
