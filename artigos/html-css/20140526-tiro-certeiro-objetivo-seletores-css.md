@@ -21,3 +21,58 @@ O que determina o impacto do seletor é o *seletor chave*. O seletor chave é al
 .p:last-child { /*-last-child- é o seletor chave*/ }
 ```
 
+No artigo (Escrevendo seletores CSS eficientes)[http://csswizardry.com/2011/09/writing-efficient-css-selectors/], afirmo que o seletor chave tem uma grande importância na eficiência do CSS, então, é importante ter isso em mente, mas em relação ao *objetivo do seletor*, você precisa, basicamente, saber o quão abrangente o seu seletor é. `html > body > section.content > article span {}` é um seletor ridiculamente grande e terrível, que niguém, em lugar algum, deveria escrevê-lo (certo?), mas, apesar da exagerada e mosntruosa especificidade dele, o seletor chave (`span`), ainda é muito, muito abrangente. Não importamente muito o que vem antes do seu seletor chave, é ele, o seletor chave, quem interessa.
+
+Como *regra geral*, você deveria evitar qualquer seletor chave que é um seletor de tipo (basicamente, qualquer elemento, como `ul` ou `span` ou algo parecido) ou um objeto base (por exemplo, `.nav` ou `.media`). Só porque só existe um objeto `.media` no seu conteúdo, não quer dizer que isso sempre será assim.
+
+Vamos olhar o exemplo `.header ul`. Assumamos que nosso código html é assim, uma vez que estamos usando a [abstração de navegação de um post anterior](http://csswizardry.com/2011/09/the-nav-abstraction/):
+
+```html
+<div class="header">
+	<ul class="nav">
+		[links]
+	</ul>
+</div>
+```
+
+Nós poderiamo selecioná-lo de várias maneiras:
+
+```css
+.header ul {
+	[regras dos estilos da navegação principal]
+}
+```
+
+Isso é tão errado e ruim porque, assim que precisar adicionar qualquer outro `ul` em nosso cabeçalho, ele terá o mesmo visual da nossa navegação principal. Isso é perigoso, mas, felizmente, é facilmente evitável.
+
+Nós poderiamos fazer assim:
+
+```css
+.header .nav {
+	[regras dos estilos da navegação principal]
+}
+```
+
+Isso é, ligeiramente, melhor que o `.header ul`, mas, por pouco. Agora, nós podemos adicionar, seguramente, outro `ul`, mas não podemos adicionar nenhuma outra coisa com a classe `.nav`; isso significa que adicionar sub-navegações ou migalhas de pão (*breadcumbs*) será um pesadelo.
+
+Finalmente, nossa melhor solução seria adicionar um segundo seletor de classe à `ul`; uma classe chamada `.main-nav`:
+
+```html
+<div class="header">
+	<ul class="nav main-nav">
+		[links]
+	</ul>
+</div>
+```
+
+```css
+.main-nav {
+	[regras dos estilos da navegação principal]
+}
+```
+
+Esse é um bom seletor com um bom objetivo. Nós estamos selecionando esse elemento pelo *verdadeiro* motivo, não por motivos circunstâncias/coincidentes. Agora, podemos adicionar quantos `ul`s e `.nav`s ao `.header` e o escopo de nossa navegação principal nunca alcançará outros elementos. Não estamos masi pisando em um carpete cheio de bombas!
+
+Mantenha seus seletores tão explícitos e específicos quanto puder, de preferência que ele seja uma classe a qualquer outra coisa. Aplicar estilos específicos a um seletor vago é muito perigoso. Um seletor genérico sempre deveria carregar estilos genéricos e se você quer mirar algo em particular, você deveria criar uma classe. **Objetivos específicos requerem seletores específicos**.
+
+## Exemplo da vida real
