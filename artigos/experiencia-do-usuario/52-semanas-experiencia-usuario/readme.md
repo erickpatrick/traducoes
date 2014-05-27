@@ -40,4 +40,4 @@
 - [Carga Visual](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140525-carga-visual.md)
 
 #### Semana 11
-- [são os Pequenos Detalhes](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140525-hierarquia-visual.md)
+- [São os Pequenos Detalhes](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140527-pequenos-detalhes.md)
