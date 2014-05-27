@@ -37,4 +37,7 @@
 
 #### Semana 10
 - [Hierarquia Visual](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140525-hierarquia-visual.md)
-- [Carga Visual](http://52weeksofux.com/post/443827835/visual-weight)
+- [Carga Visual](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140525-carga-visual.md)
+
+#### Semana 11
+- [são os Pequenos Detalhes](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140525-hierarquia-visual.md)
