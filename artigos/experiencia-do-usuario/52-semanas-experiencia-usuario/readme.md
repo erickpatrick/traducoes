@@ -41,3 +41,6 @@
 
 #### Semana 11
 - [São os Pequenos Detalhes](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140527-pequenos-detalhes.md)
+
+#### Semana 12
+- [Interfaces Honestas](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140528-interfaces-honestas.md)
