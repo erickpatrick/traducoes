@@ -45,3 +45,6 @@
 #### Semana 12
 - [Interfaces Honestas](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140528-interfaces-honestas.md)
 - [Os 10 Princípios da Experiência do Usuário](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140528-10-principios-experiencia-usuario.md)
+
+#### Semana 13
+- [Conhecimento de Experiência do Usuário: Uma entrevisa com Andy Budd](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140529-conhecimento-ux-entrevista-andy-budd.md)
