@@ -52,3 +52,4 @@
 
 #### Semana 14
 - [A Experiência Pertence ao Usuário](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140529-experiencia-pertence-usuario.md)
+- [Uma Imagem Vale Mais que Mil Palavras, Exceto Quando Não Vale](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140530-imagem-mil-palavas-exceto.md)
