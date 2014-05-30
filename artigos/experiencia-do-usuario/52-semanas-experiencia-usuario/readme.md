@@ -49,3 +49,6 @@
 #### Semana 13
 - [Conhecimento de Experiência do Usuário: Uma entrevisa com Andy Budd](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140529-conhecimento-ux-entrevista-andy-budd.md)
 - [Encontrando o Caminho](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140529-encontrando-caminho.md)
+
+#### Semana 14
+- [A Experiência Pertence ao Usuário](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140529-experiencia-pertence-usuario.md)
