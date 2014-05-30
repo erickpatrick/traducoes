@@ -26,3 +26,12 @@ O bom dereferências é que você pode otimizar seu processo em relação à ela
 
 Mas, há um ponto importante a se levantar: a referência de um profissional de ExU não deveria ser usuários felizes? Uma ExU positiva não deveria ser nossa métrica de referência ao invés de seguir o processo tim-tim por tim-tim? E se começarmos a otimizar nossos projetos para obtermos usuários felizes ao invés de qualquer outra coisa? Temos de ter em mente que, usuários felizes significa negócio feliz, mas não se engane em achar que o modelo de negócio está correto.
 
+Em minha experiência, se você otimizar para obter usuários felizes, pode jogar fora todas as outras otimizações. Você não terá um processo claro, você não terá o site mais bonito visualmente, nem terá o mais rápido, muito menos terá uma taxa de conversão das mais altas do mundo.
+
+Na verdade, todas essas coisas estão sempre em cheque. Seu processo será um fluxo, o projeto visual mudará com o tempo, a velocidade do seu site flutuará e sua taxa de conversão também.
+
+Mas isso é normal e aceitável. Essas coisas não importam muito se você tem feito seus usuários felizes. Você está otimizando a "métrica" correta, a felicidade de seus usuários. Então, "por contrato', você tem de largar as outras coisas no meio do caminho.
+
+Da próxima vez que um Policial de Processo aparecer, pergunte a ele: "Esse processo garante que os usuários estejam felizes e satisfeitos?". Enquanto eles pensam nisso, pergunte-se: "Essa pessoas está usando o processo dela como chave para o sucesso ou está se baseando no que os outros dizem?"
+
+Não há processo que garanta sucesso. Se existisse um processo que garantisse a felicidade dos usuários, todo mundo estaria usando. Mas os projetos não funcionam dessa forma: eles são iterativos, reponsivos e inconstantes. Você tem de *agir* tanto quanto *planeja*. Você tem de mudar seu processo, na hora, para agir de acordo com as mudanças do mercado. É por isso que temos de otimizar o que é mais importante, a felicidade do usuario, e fazer o que tiver de ser feito para fazer com que isso aconteça, e que se dane os processos.
