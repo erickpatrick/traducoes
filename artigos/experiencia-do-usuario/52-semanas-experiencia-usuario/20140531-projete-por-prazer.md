@@ -36,3 +36,6 @@ Recentemente, deparei-me com vários sites que ilustram isso muito bem. Eis algu
 - http://shauninman.com/pilation/
 - http://vimeo.com/log_in
 
+Enquanto alguns dizem que isso é supérfluo e trivial, eu discordo. Como Paul Rand disso, "Bom design adiciona algum tipo de valor, dando sentido e, não acidentalmente, é prazeroso lidar; ele respeita as sensibilidades do usuário e recompensa o empreendedor".
+
+Faça-se um favor&ndash;recomense seus usuários com um pouco de diversão. No fim das contas, um pouco de graça ajuda muito.
