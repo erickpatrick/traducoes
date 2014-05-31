@@ -16,3 +16,23 @@ Entretanto, há dois benefícios genuínos por adicionar um pouco de prazer à e
 - excitação sobre o seu produto e marca geram um crescimento da interação;
 - será algo memorável que as pessoas compartilharão e contarão aos outros;
 
+É esse mínimo momento&ndash;seja uma *tool-tip* inteligente que esclarece o que é digitado em um campo de formulário para que eu consiga preenche-lo ou um simples gráfico escondido que se apresenta em um determinado momento através de uma pequena interação&ndash;que traz um sorrizo ao rosto do usuário, fazendo-o gargalhar ou apenas fazendo com que se sinta seguro e confidente em suas ações. Nunca subestime o poder do prazer para aprimorar a experiência do usuário.
+
+A indústria de serviços sabe desse segredo desde sempre. Há pouco tempo para interagir de forma a moldar a experiência para o cliente. Nesses momentos, ele pode ser surpreendido de forma agradável pelos pequenos momentos: atenção aos detalhes, velocidade do serviço, qualquer outra coisa, até mesmo um sorriso. Se o cliente sai achando que deram um pouco mais de atenção a ele, tenha certeza que ele voltará e, muito provavelmente, falará bem sobre seus serviços.
+
+Recentemente, deparei-me com vários sites que ilustram isso muito bem. Eis alguns que proveram, genuinamente, momentos prazeroso, ou vários, em alguns casos! (Nota: os sites podem ter mudado desde que o post foi criado).
+
+- http://www.blueskyresumes.com/about-us/#our-team
+- http://analog.coop/
+- http://www.pictorymag.com/
+- http://crushlovely.com/
+- http://themanyfacesof.com
+- http://theshipandthesea.com/
+- http://www.thinkingforaliving.org/
+- http://www.sleepoversf.com/a-critical-analysis-of-my-shoes/
+- http://www.sleepoversf.com/metagames-and-containers/
+- http://workshopsfortheweb.com/
+- http://colly.com/
+- http://shauninman.com/pilation/
+- http://vimeo.com/log_in
+
