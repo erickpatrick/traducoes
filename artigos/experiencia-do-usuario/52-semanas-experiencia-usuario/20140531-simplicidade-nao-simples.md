@@ -17,3 +17,6 @@ A *Primeira Lei da Simplicidade* de John Maeda diz: *A maneira mais simples de a
 
 Qualquer um que toma a tarefa de criar algo usável de verdade, percebe que alcançar a simplicidade não é uma tarefa simples. Para qualquer característica de um produto, devemos levar em conta a maneira que ela se mostra, aparenta; a maneira como funciona; seu lugar, sua posição em relação a todo o sistema; capacidade de ajudar a contextualizar como e porque ela é usada; bem como levar em conta a motivação do usuário.
 
+Designers estão, constantemente, em um processo de avaliar cada decisão em relação às anteriores, em relação às conveções e em relação aos objetivos do usuário, buscando criar uma interface, um produto ou um serviço que seja claro em todas as maneiras e funcionalidades. Não tem como negar a dificuldade disso. Há um delicado equilíbrio entre simplicidade de uso e a complixidade da utilidade. Mas é verdade: o produto que é claro em seu objetivo, elegante em sua execução e simples em seu uso, terá destaque em relação a seus competidores e terá um valor muito maior para o usuário.
+
+Projetar para simplicidade é um processo de refinamento calculado.
