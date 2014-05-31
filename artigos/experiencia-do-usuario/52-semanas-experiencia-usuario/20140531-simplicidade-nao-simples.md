@@ -13,3 +13,7 @@ Pelo contrário. Eu acredito que o nível máximo se sofisticação acontece qua
 
 Isso pode parecer muito filosófico, mas como meu co-autor, Josh Porter, disse um dia desses: "Simplicidade é muito mais que aquele mote 'menos é mais', que tanto ouvimos. Simplicidade é sobre clareza". E clareza vem do refinamento constante.
 
+A *Primeira Lei da Simplicidade* de John Maeda diz: *A maneira mais simples de alcançar a simplicidade é através de redução profunda e pensada*. Refinamento que é profundo, calculado e, sempre que possível, apropriado, baseado em dados, é uma das ferramentas fundamentais de qualquer designer.
+
+Qualquer um que toma a tarefa de criar algo usável de verdade, percebe que alcançar a simplicidade não é uma tarefa simples. Para qualquer característica de um produto, devemos levar em conta a maneira que ela se mostra, aparenta; a maneira como funciona; seu lugar, sua posição em relação a todo o sistema; capacidade de ajudar a contextualizar como e porque ela é usada; bem como levar em conta a motivação do usuário.
+
