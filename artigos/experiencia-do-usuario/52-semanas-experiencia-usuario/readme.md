@@ -60,7 +60,6 @@
 
 #### Semana 16
 - [Simplicidade não é tão simples](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140531-simplicidade-nao-simples.md)
-
 - [Métricas de Engajamento da ExU](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140601-metricas-engajamento-exu.md)
 
 #### Semana 17
