@@ -64,3 +64,4 @@
 
 #### Semana 17
 - [Projetar Envolve Compromisso](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140601-projetar-envolve-compromisso.md)
+- [A Experiência Precede a Marca](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140601-experience-precede-marca.md)
