@@ -69,3 +69,6 @@
 #### Semana 18
 - [Preste Atenção nas Startups](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140602-prestar-atencao-startups.md)
 - [Controle](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140603-controle.md)
+
+#### Semana 19
+- [O Termo ExU Sido Usado Discriminadamente?](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140603-termo-uxo-uso-discriminado.md)
