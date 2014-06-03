@@ -15,4 +15,6 @@ Por mais que tenha ouvido esses argumentos, não acho que haja o que temer.
 
 **O termo UX é mais preciso que a maioria**: A ExU descreve sua missão logo em sua nomeação: aprimorar a experiência do usuário. É por isso que escuto executivos, profissionais de marketing, designers e desenvolvedores usarem o termo em certas situações que, no final, devem estar falando da mesma coisa. As pessoas entendem o termo UX melhor que outros termos usados no passado. Além disso, "Design" é tão carregado quanto qualquer outra palavra, trazendo sua própria bagagem consigo. Projetistas são vistos diferentes pelo resto do mercado, usando seus óculos de armações largas e escuras, fazendo as coisas parecerem bonitas. A curto prazo, acho que UX pode ser usada, sem problemas, e ajudar a focar nas pessoas para as quais estamos projetando, não nos designers em si.
 
-****:
+**O termo não é o que importa**: A longo prazo, o termo não é o que importa, mas, sim, o trabalho. A única coisa que importa para os profissionais nessa área é que você esteja aprimorando a experiência dos seus usuários dia após dia. Não importa como você se entitula. Seja IA, UX ou Designer ou qualquer outra coisa. Esses termos são meras denominações que ajudam em discussões, indicadores contextuais que as pessoas usam para orientarem-se inicialmente. Após essa orientação inicial, o termo não importa, o trabalho, sim.
+
+Então, não se preocupe sobre o uso discriminado do termo UX. É só um termo. Serão as pessoas que fazem falsas promessas e não realizam trabalhos de ExU que serão marginalizadas, no fim.
