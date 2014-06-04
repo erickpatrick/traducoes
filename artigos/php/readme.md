@@ -8,7 +8,7 @@ Traduções Realizadas
 ### Intermediário
 - [Primeiros passos com PhpSpec](https://github.com/erickpatrick/traducoes/blob/master/artigos/php/20140517-primeiros-passos-phpspec.md)
 - [BDD com Behat](https://github.com/erickpatrick/traducoes/blob/master/artigos/php/20140519-BDD-behat.md)
-- [Compreendendo as Funções Hash e Mantendo as Senhas Seguras](https://code.tutsplus.com/tutorials/understanding-hash-functions-and-keeping-passwords-safe--net-17577)
+- [Compreendendo as Funções Hash e Mantendo as Senhas Seguras](https://github.com/erickpatrick/traducoes/blob/master/artigos/php/20140522-funcoes-hash-senhas-seguras.md)
 
 Futuras Traduções
 -----------------
