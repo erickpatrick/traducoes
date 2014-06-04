@@ -75,4 +75,4 @@
 - [Piedade](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140603-piedade.md)
 
 #### Semana 20
-- [Piedade](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140603-ensine-bem-usuarios.md)
+- [Ensine Bem seus Usuários](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140603-ensine-bem-usuarios.md)
