@@ -1,7 +1,7 @@
 Traduções (por Erick Patrick)
 ==============
 
-![Tradutor oficial Tuts+ para Português](images/300x60-2.png "Tradutor oficial Tuts+ para Português")
+[![Tradutor oficial Tuts+ para Português](images/300x60-2.png "Tradutor oficial Tuts+ para Português")](http://tutsplus.com/)
 
 > Alguns posts do site Tut+, aqui traduzidos, em breve farão parte do site oficial do Tut+. Uma vez que elas estiverem no ar, as traduções daqui apontarão, diretamente, para o site oficial. Agradeço a compreensão.
 
