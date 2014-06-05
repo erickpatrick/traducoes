@@ -76,3 +76,4 @@
 
 #### Semana 20
 - [Ensine Bem seus Usuários](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140603-ensine-bem-usuarios.md)
+- [Análise de Grupo - Medindo o Engajamento Através do Tempo](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140605-analise-grupo-medir-engajamento-tempo.md)
