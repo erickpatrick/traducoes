@@ -80,3 +80,4 @@
 
 #### Semana 21
 - [Nunca Deixe de Pensar no Futuro](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140606-pensar-futuro.md)
+- [Intenção do Comandante](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140607-intencao-comandante.md)
