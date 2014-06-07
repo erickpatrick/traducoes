@@ -14,3 +14,12 @@ A intenção do comandante é um simples objetivo criado, no começo de uma bata
 O livro diz que você o soldado é capaz de lembrar da intenção do comandante ao se perguntar "qual o objetivo principal da batalha?". A resposta permite que cada pessoa no batalhão possa priorizar suas ações de acordo com a situação, sempre buscando esse objetivo.
 
 E é assim que funciona para o design de interação, também. Porém, a pergunta que se deve fazer é: "Qual o principal objetivo dessa tela?". Fazer-se essa pergunta para cada tela é extremamanet valioso. Isso pode ajudar os projetistas a focar completamente nas ações mais importantes que a tela precisa suportar, mesmo que o design geral mude, de acordo com os testes e críticas dos usuários. Mesmo que uma tela mude com o passar do tempo, uma vez os projetistas enfatizando algumas partes ou reduzindo outras, a motivação original mantem-se intacta.
+
+Algumas dicas para quando usar a "Intenção do Comandante" nos projetos:
+
+- Se você não é capaz de identificar propósito de uma tela, então remova-a;
+- Se você acha que uma tela tem dois propósitos principais, então, divida-a em duas telas diferentes;
+- Se alguma coisa não condiz com o propósito da tela, então, livre-se dessa coisa;
+- Se esse propósito não gera uma experiência positivo para o usuário, então, livre-se da tela.
+
+Na maioria dos casos, uma tela mal projetada é causada pela má priorização por parte da equipe de design. A Intenção do Comandante surgiu em um campo totalmente diferente, mas, sem dúvida alguma, ajuda os projetistas a priorizarem as decisões que tem de tomar.
