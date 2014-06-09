@@ -15,3 +15,10 @@ Há, somente, más, boas e melhores respostas para uma dada situação. Cada sol
 
 É aí onde as coisas ficam interessantes. Para encontrar melhores respostas para seu problema de design, você precisa saber o contexto que ele se encaixa. Você precisa saber o que está tentando obter, o que seria um resultado bem sucedido e o que você precisa ter para alcança-lo. Para muitos problemas de aplicações (web ou não), isso significa que você precisa saber quais os seus objetivos, o que as pessoas querem fazer, o que elas já sabem e o conteúdo ou dados que você tem para trabalhar.
 
+Então, como você é capaz de encontras as melhores respostas? Você não as encontra pensando em qual seria a melhor abordagem para consegui-las. Você consegue trabalhando com respostas em potencial. Para cada abordagem alternativa:
+
+- Projete-a nos mínimos detalhes possível: Algumas possiblidade se mostram erradas, automaticamente, quando você começa a trabalhar com os por menores usando dados de verdade;
+- Teste cada possibilidade: Algumas simplesmente ruirão quando usadas por pessoas de verdade. E não digo durante testes de usabilidade, mas fazendo pessoas usando na prática;
+- Ajuste aquelas que se saírem melhores.
+
+E, mais importante: Saiba que a melhor resposta mudará. Da mesma forma que o contexto muda, as boas soluções também mudam. Continuem ajustando e aprimorando, e não tente achar uma única respota correta. Ela não existe.
