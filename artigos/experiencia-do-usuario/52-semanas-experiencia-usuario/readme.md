@@ -84,3 +84,4 @@
 
 #### Semana 22
 - [Não Há Resposta Certa](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140609-nao-ha-resposta-certa.md)
+- [O Máximo Local](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140610-maximo-local.md)
