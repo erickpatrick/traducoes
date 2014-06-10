@@ -16,3 +16,14 @@ Enquanto um ciclo de aprimoramentos menores é melhor que o processo disfunciona
 Para ilustrar essa noção de máximo local [Chen usa o exemplo de uma aplicação de envio de imagens](http://andrewchenblog.com/2008/06/04/5-steps-towards-building-a-metrics-driven-business/), apontando que há inúmeras maneiras de aprimorar alguma algo, otimizando o que já existe. Você pode realizar testes A/B com a página atual de envio de imagens, enviar mais e-mails lembrando as pessoas para enviar masi fotos, adicionar botão de ação para o envio de imagens, etc. É fácil projetar e testar essas opções.
 
 Mas, depois de um tempo, essas fáceis e rápidas possibilidades vão diminuindo, forçando você, projetista de ExU, a tomar uma decisão: continuar a testar pequenas mudanças em relação design atual (otimização) ou realizar mudanças grandes e estruturais que realmente causam impacto (inovação).
+
+Chen aponta que outras abordagens para aprimorar o app de uplaod de fotas, além da otimização, provavelmente, dariam um retorno maior. Entre elas, estão:
+
+- Reposicionar o produto de forma a gerar um proposição mais forte de valor do mesmo;
+- Buscar público alvo diferente para focar em suas necessidades;
+- Recalibras as "mecânicas básicas" do produto para tornar o envio de imagens uma parte natural do produto.
+
+Como essas mudanças são muito maiores que um simples elemento de design que você pode testar, realizar uma dessas mudanças necessita a tomada de uma ousada decisão. Alguém tem de tomar a frente se basear na intuição: descobrir o que funciona na cara e na coragem ao invés de seguir oque os testes provam ser funcional.
+
+Para projetarmos em relação ao máximo local, precisamos de um equilíbrio entre o metodismo dos testes e o senso intuitivo dos designers, para poder realizar grandes mudanças. Devemos alternar, de forma inteligente, entre inovação e otimização, uma vez que ambas são necessárias para projetar grandes experiências de usuário.
+
