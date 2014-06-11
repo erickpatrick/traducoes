@@ -87,4 +87,4 @@
 - [O Máximo Local](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/22/20140610-maximo-local.md)
 
 #### Semana 23
-- [O Máximo Local](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/23/20140610-maximo-local.md)
+- [O Erro de Atribuição Fundamental](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/23/20140611-erro-atribuicao-fundamental.md)
