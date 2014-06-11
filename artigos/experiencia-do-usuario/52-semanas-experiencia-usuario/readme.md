@@ -1,5 +1,7 @@
 ### 52 semanas de Experiência do Usuário
 
+> **NOTA**: Embora o nome seja 52 semanas de Experiência do Usuário, o [site original](http://52weeksofux.com/) só tem posts para 51 semanas.
+
 - [Semana 1](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-1)
 - [Semana 2](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-2)
 - [Semana 3](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-3)
