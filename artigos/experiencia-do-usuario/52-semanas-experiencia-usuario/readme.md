@@ -9,7 +9,7 @@
 
 #### Semana 3
 - [Entregáveis vs. Entrega](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/03/20140523-entregaveis-vs-entrega.md)
-- [Esboce, esboce, esboce](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/semanas/03/52-semanas-experiencia-usuario/20140523-esboce.md)
+- [Esboce, esboce, esboce](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/03/20140523-esboce.md)
 
 #### Semana 4
 - [Limites Ajudam a Criatividade](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/04/20140523-limites-criatividade.md)
@@ -76,7 +76,7 @@
 
 #### Semana 20
 - [Ensine Bem seus Usuários](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/20/20140603-ensine-bem-usuarios.md)
-- [Análise de Grupo - Medindo o Engajamento Através do Tempo](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/20/20140605-analise-grupo-medir-engajamento-tempo.md)
+- [Análise de Bando - Medindo o Engajamento Através do Tempo](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/20/20140605-analise-grupo-medir-engajamento-tempo.md)
 
 #### Semana 21
 - [Nunca Deixe de Pensar no Futuro](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/21/20140606-pensar-futuro.md)

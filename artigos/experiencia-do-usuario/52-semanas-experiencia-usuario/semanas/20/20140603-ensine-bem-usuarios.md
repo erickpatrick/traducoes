@@ -3,7 +3,7 @@ Ensine Bem seus Usuários
 Créditos<br/>
 <small>Autor original: [Joshua Brewer](http://52weeksofux.com/)<br/>[Artigo Original](http://52weeksofux.com/post/647891017/teach-your-users-well)</small>
 
-![Professor ensinando](http://media.tumblr.com/tumblr_l2yjb4Vwjm1qz7ace.jpg "Professor ensinando")
+![Professor ensinando](http://media.tumblr.com/tumblr_l37xtgdh3W1qz7ace.jpg "Professor ensinando")
 
 Em [O Ciclo de Vida da Utilização](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140523-ciclo-vida-utilizacao.md), a transição entre a **Primeira Vez de Uso** e o **Uso Contínuo/Uso Passional** pode ser reduzida um único elemento crucial: educação.
 
