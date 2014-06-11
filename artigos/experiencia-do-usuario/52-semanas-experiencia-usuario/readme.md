@@ -23,6 +23,34 @@
 - [Semana 21](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-21)
 - [Semana 22](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-22)
 - [Semana 23](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-23)
+- [Semana 24](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-24)
+- [Semana 25](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-25)
+- [Semana 26](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-26)
+- [Semana 27](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-27)
+- [Semana 28](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-28)
+- [Semana 29](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-29)
+- [Semana 30](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-30)
+- [Semana 31](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-31)
+- [Semana 32](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-32)
+- [Semana 33](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-33)
+- [Semana 34](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-34)
+- [Semana 35](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-35)
+- [Semana 36](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-36)
+- [Semana 37](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-37)
+- [Semana 38](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-38)
+- [Semana 39](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-39)
+- [Semana 40](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-40)
+- [Semana 41](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-41)
+- [Semana 42](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-42)
+- [Semana 43](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-43)
+- [Semana 44](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-44)
+- [Semana 45](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-45)
+- [Semana 46](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-46)
+- [Semana 47](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-47)
+- [Semana 48](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-48)
+- [Semana 49](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-49)
+- [Semana 50](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-50)
+- [Semana 51](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#semana-51)
 
 
 #### Semana 1
@@ -114,3 +142,32 @@
 
 #### Semana 23
 - [O Erro de Atribuição Fundamental](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/23/20140611-erro-atribuicao-fundamental.md)
+
+#### Semana 24
+#### Semana 25
+#### Semana 26
+#### Semana 27
+#### Semana 28
+#### Semana 29
+#### Semana 30
+#### Semana 31
+#### Semana 32
+#### Semana 33
+#### Semana 34
+#### Semana 35
+#### Semana 36
+#### Semana 37
+#### Semana 38
+#### Semana 39
+#### Semana 40
+#### Semana 41
+#### Semana 42
+#### Semana 43
+#### Semana 44
+#### Semana 45
+#### Semana 46
+#### Semana 47
+#### Semana 48
+#### Semana 49
+#### Semana 50
+#### Semana 51
