@@ -1,87 +1,90 @@
 ### 52 semanas de Experiência do Usuário
 #### Semana 1
-- [A Primeira Regra da Experiência do Usuário](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140522-primeira-regra-experiencia-usuario.md)
-- [O que Constitui a Experiência do Usuário](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140523-constituicao-experiencia-usuario.md)
+- [A Primeira Regra da Experiência do Usuário](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/01/20140522-primeira-regra-experiencia-usuario.md)
+- [O que Constitui a Experiência do Usuário](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/01/20140523-constituicao-experiencia-usuario.md)
 
 #### Semana 2
-- [Resolva Problemas Existentes](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140523-resolver-problemas-existentes.md)
-- [As Soluções são Fáceis se Você Conhece o Problema](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140523-solucoes-faceis-conhecer-problema.md)
+- [Resolva Problemas Existentes](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/02/20140523-resolver-problemas-existentes.md)
+- [As Soluções são Fáceis se Você Conhece o Problema](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/02/20140523-solucoes-faceis-conhecer-problema.md)
 
 #### Semana 3
-- [Entregáveis vs. Entrega](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140523-entregaveis-vs-entrega.md)
-- [Esboce, esboce, esboce](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140523-esboce.md)
+- [Entregáveis vs. Entrega](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/03/20140523-entregaveis-vs-entrega.md)
+- [Esboce, esboce, esboce](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/semanas/03/52-semanas-experiencia-usuario/20140523-esboce.md)
 
 #### Semana 4
-- [Limites Ajudam a Criatividade](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140523-limites-criatividade.md)
-- [iPad: Para Qual Público?](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140523-ipad-qual-audiencia.md)
+- [Limites Ajudam a Criatividade](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/04/20140523-limites-criatividade.md)
+- [iPad: Para Qual Público?](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/04/20140523-ipad-qual-audiencia.md)
 
 #### Semana 5
-- [Utilidade vs. Beleza](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140523-utilidade-vs-beleza.md)
-- [Sonhadores do dia](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140523-sonhadores-dia.md)
+- [Utilidade vs. Beleza](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/05/20140523-utilidade-vs-beleza.md)
+- [Sonhadores do dia](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/05/20140523-sonhadores-dia.md)
 
 #### Semana 6
-- [O Ciclo de Vida da Utilização](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140523-ciclo-vida-utilizacao.md)
-- [Você Não é Seu Usuário](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140523-voce-nao-e-seu-usuario.md)
+- [O Ciclo de Vida da Utilização](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/06/20140523-ciclo-vida-utilizacao.md)
+- [Você Não é Seu Usuário](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/06/20140523-voce-nao-e-seu-usuario.md)
 
 #### Semana 7
-- [O Poder dos Arcabouços](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140524-poder-arcaboucos.md)
-- [Criadores de Estruturas](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140524-criadores-estruturas.md)
+- [O Poder dos Arcabouços](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/07/20140524-poder-arcaboucos.md)
+- [Criadores de Estruturas](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/07/20140524-criadores-estruturas.md)
 
 #### Semana 8
-- [Bom Design É...](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140524-bom-design-e.md)
-- [Interface do Usuário como Atendimento ao Cliente](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140524-interface-usuario-atendimento-cliente.md)
+- [Bom Design É...](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/08/20140524-bom-design-e.md)
+- [Interface do Usuário como Atendimento ao Cliente](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/08/20140524-interface-usuario-atendimento-cliente.md)
 
 #### Semana 9
-- [Torne Menos em Mais](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140524-torne-menos-mais.md)
-- [Alterando Situações Existentes](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140524-alterando-situacoes-existentes.md)
+- [Torne Menos em Mais](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/09/20140524-torne-menos-mais.md)
+- [Alterando Situações Existentes](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/09/20140524-alterando-situacoes-existentes.md)
 
 #### Semana 10
-- [Hierarquia Visual](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140525-hierarquia-visual.md)
-- [Carga Visual](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140525-carga-visual.md)
+- [Hierarquia Visual](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/10/20140525-hierarquia-visual.md)
+- [Carga Visual](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/10/20140525-carga-visual.md)
 
 #### Semana 11
-- [São os Pequenos Detalhes](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140527-pequenos-detalhes.md)
+- [São os Pequenos Detalhes](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/11/20140527-pequenos-detalhes.md)
 
 #### Semana 12
-- [Interfaces Honestas](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140528-interfaces-honestas.md)
-- [Os 10 Princípios da Experiência do Usuário](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140528-10-principios-experiencia-usuario.md)
+- [Interfaces Honestas](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/12/20140528-interfaces-honestas.md)
+- [Os 10 Princípios da Experiência do Usuário](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/12/20140528-10-principios-experiencia-usuario.md)
 
 #### Semana 13
-- [Conhecimento de Experiência do Usuário: Uma entrevisa com Andy Budd](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140529-conhecimento-ux-entrevista-andy-budd.md)
-- [Encontrando o Caminho](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140529-encontrando-caminho.md)
+- [Conhecimento de Experiência do Usuário: Uma entrevisa com Andy Budd](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/13/20140529-conhecimento-ux-entrevista-andy-budd.md)
+- [Encontrando o Caminho](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/13/20140529-encontrando-caminho.md)
 
 #### Semana 14
-- [A Experiência Pertence ao Usuário](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140529-experiencia-pertence-usuario.md)
-- [Uma Imagem Vale Mais que Mil Palavras, Exceto Quando Não Vale](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140530-imagem-mil-palavas-exceto.md)
+- [A Experiência Pertence ao Usuário](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/14/20140529-experiencia-pertence-usuario.md)
+- [Uma Imagem Vale Mais que Mil Palavras, Exceto Quando Não Vale](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/14/20140530-imagem-mil-palavas-exceto.md)
 
 #### Semana 15
-- [O Policial de Processos](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140530-policial-processos.md)
-- [Projete por Prazer](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140531-projete-por-prazer.md)
+- [O Policial de Processos](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/15/20140530-policial-processos.md)
+- [Projete por Prazer](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/15/20140531-projete-por-prazer.md)
 
 #### Semana 16
-- [Simplicidade não é tão simples](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140531-simplicidade-nao-simples.md)
-- [Métricas de Engajamento da ExU](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140601-metricas-engajamento-exu.md)
+- [Simplicidade não é tão simples](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/16/20140531-simplicidade-nao-simples.md)
+- [Métricas de Engajamento da ExU](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/16/20140601-metricas-engajamento-exu.md)
 
 #### Semana 17
-- [Projetar Envolve Compromisso](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140601-projetar-envolve-compromisso.md)
-- [A Experiência Precede a Marca](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140601-experience-precede-marca.md)
+- [Projetar Envolve Compromisso](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/17/20140601-projetar-envolve-compromisso.md)
+- [A Experiência Precede a Marca](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/17/20140601-experience-precede-marca.md)
 
 #### Semana 18
-- [Preste Atenção nas Startups](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140602-prestar-atencao-startups.md)
-- [Controle](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140603-controle.md)
+- [Preste Atenção nas Startups](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/18/20140602-prestar-atencao-startups.md)
+- [Controle](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/18/20140603-controle.md)
 
 #### Semana 19
-- [O Termo ExU Sido Usado Discriminadamente?](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140603-termo-uxo-uso-discriminado.md)
-- [Piedade](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140603-piedade.md)
+- [O Termo ExU Sido Usado Discriminadamente?](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/19/20140603-termo-uxo-uso-discriminado.md)
+- [Piedade](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/19/20140603-piedade.md)
 
 #### Semana 20
-- [Ensine Bem seus Usuários](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140603-ensine-bem-usuarios.md)
-- [Análise de Grupo - Medindo o Engajamento Através do Tempo](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140605-analise-grupo-medir-engajamento-tempo.md)
+- [Ensine Bem seus Usuários](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/20/20140603-ensine-bem-usuarios.md)
+- [Análise de Grupo - Medindo o Engajamento Através do Tempo](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/20/20140605-analise-grupo-medir-engajamento-tempo.md)
 
 #### Semana 21
-- [Nunca Deixe de Pensar no Futuro](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140606-pensar-futuro.md)
-- [Intenção do Comandante](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140607-intencao-comandante.md)
+- [Nunca Deixe de Pensar no Futuro](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/21/20140606-pensar-futuro.md)
+- [Intenção do Comandante](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/21/20140607-intencao-comandante.md)
 
 #### Semana 22
-- [Não Há Resposta Certa](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140609-nao-ha-resposta-certa.md)
-- [O Máximo Local](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/20140610-maximo-local.md)
+- [Não Há Resposta Certa](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/22/20140609-nao-ha-resposta-certa.md)
+- [O Máximo Local](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/22/20140610-maximo-local.md)
+
+#### Semana 23
+- [O Máximo Local](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/23/20140610-maximo-local.md)
