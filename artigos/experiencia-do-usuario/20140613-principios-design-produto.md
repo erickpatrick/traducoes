@@ -49,3 +49,6 @@ Não interessa o quanto você planejou, as pessoas se comportarão de maneiras i
 
 ### 15. Excelentes Produtos Focam em um Único Problema
 Geralmente, as pessoas criam produtos na esperança que ele chame a atenção de alguém. Mas os melhores produtos são aqueles que atraem, de uma maneira especial, as pessoas que estão tentando realizar algo em específico. Esses produtos são especializados para aquela tarefa. Pode parecer contra intuitivo focar em um mercado pequeno, mas a jornada para um grande mercado começa aqui.
+
+### 16. Produtos Arrebatadores Parecem com Brinquedos
+Produtos que acabam se tornando arrebatadores, geralmente, começam parecendo com um brinquedo. Eles não parecem muito com brinquedos, mas tem algum aspecto que é útil de alguma forma que os produtos que são necessários para alguém. Talvez sejam mais baratos, mais fáceis de usar ou mais colaborativos. Talvez não sejam tão polidos, maduros ou uma base de usuários e, por isso, parecem com um brinquedo. E essa aparência de modesto é exatamente o que fará ser tarde demais para os outros produtos/empresas perceberem que esse produto é "gigantesco". [#](http://www.amazon.com/The-Innovators-Dilemma-Revolutionary-Business/dp/0062060244/) [#](http://cdixon.org/2010/01/03/the-next-big-thing-will-start-out-looking-like-a-toy/)
