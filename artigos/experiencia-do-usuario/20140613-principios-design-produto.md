@@ -55,3 +55,6 @@ Produtos que acabam se tornando arrebatadores, geralmente, começam parecendo co
 
 ### 17. Posicionamento é Crucial
 A maneira como o público pensa sobre seu produto é crucial para a sua adoção e uso. A maneira como você o posiciona, como você fala sobre ele, como você o descreve, como você o compara a outros produtos, dá uma ideia para as pessoas o entenderem e como ele pode ser útil em suas vidas. Você pode posicionar seu produto em uma nova categoria de produto ou como um aprimoramento deuma categoria já existente. Geralmente, faz sentido posiciona-lo em categoria existente. As pessoas aprendem ao comparar com algo que elas já conhecem e entendem [#](http://bokardo.com/archives/how-to-embrace-and-extend-product-categories/)
+
+### 18. Ajuste de Produto/Mercado é para Quando as Pessoas Vendem para Você
+Ajuste de mercado é um termo engraçado, mas eis uma maneira concreta de como pensar sobre ele. Quando as pessoas entendem e usam o suficiente seu produto até o ponto de reconhecer o valor que ele tem, isso é uma grande vitória. Mas, quando eles começam a compartilhar experiências positivas com os outros, quando começam a replicar a experiência com cada novo usuário que eles contam, então você tem você tem um ajuste de mercado/produto em suas mãos. Quando isso acontece, algo mágico acontece. Do nada, as pessoas passam a ser seus vendedores.
