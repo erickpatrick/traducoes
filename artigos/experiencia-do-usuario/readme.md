@@ -2,6 +2,8 @@
 
 Traduções Realizadas
 --------------------
+#### Básico-Intermediário
+[Princípios do Design de Produtos](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/20140613-principios-design-produto.md)
 
 #### Intermediário-Avançado
 [Como Testes A/B Funcionam e Como Usá-los com Google Analytics](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/20140512-testes-ab-google-analytics.md)
