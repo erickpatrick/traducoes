@@ -37,3 +37,7 @@ Email e Excel são dois dos mais formidáveis competidores que se pode ter: As p
 
 ### 11. Ideal VS. Desejado
 Há, frequentemente, uma diferença entre como você quer que as pessoas usem seu produto e e como eles, realmente, usam. Não confunda os dois. Seja honesto sobre como as pessoas realmente estão usando seu produto. Em alguns casos, não será bem como você queria. É importante prestar atenção a isso. Em outros casos, as pessoas usam um produto de forma incorreta porque eles não aprenderam da forma correta e só precisam de uma ajudinha. O cenário do pior caso é quando as pessoas usam seu produto de uma forma que você jamais pensou.
+
+### 12. Valor Pessoal Vem Antes do Valor Social
+É fácil exitar-se com o valor social do software. "Ohh, se construirmos isso da maneira certa, todos compartilharão com seus amigos!". Mas as pessoas, raramente, usam um software porque ele é social. Eles usam um aplicativo porque proveem algum valor pessoal primeiro. Eles podem usar o aplicativo sem envolver os outros (pode até incluir os outros, mas o ato de compartilhar é secundário).
+
