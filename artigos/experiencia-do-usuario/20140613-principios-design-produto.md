@@ -31,3 +31,6 @@ Lançamentos geram expectativas. Tornou-se comum lançar produtos tão rápido q
 
 ### 09. Os Últimos 10% são os Piores
 A diferença entre o bom e o ótimo está nos últimos 10%. Todo mundo consegue alcançar os 90%: as mesmas funcionalidades base, preços similares e história similar. Mas, os 10% finais são o grande diferenciador. É a parte que separa você do seus competidores. É o sangue, suor e lágrimas de detalhes. E, provavelmente, tomará 50% do seu tempo. Mas o tempo não é o que você está medindo. Você está medindo a diferença entre o bom e o ótimo.
+
+### 10. Saiba Quem São Seus Verdadeiros Competidores
+Email e Excel são dois dos mais formidáveis competidores que se pode ter: As pessoas os usam para fazer praticamente tudo. Porém, não pensamos neles como competidores de verdade porque não competem diretamente com a gente... mas, sim, competem, indiretamente. É muito fácil seguir as categorias de produtos que os analistas criam para cada indústria. Mas essas categorias, raramente, cobrem todos os campos de competitividade. Então, procure por competidores indiretos que são tão perigosos quanto os diretos. Celulares com câmeras, por exemplo, são competidores indiretos, porém, mortais, às câmeras digitais e câmeras de video. Você precisa saber quem são seus compteidores diretos *e indiretos* para criar um produto, realmente, inovativo.
