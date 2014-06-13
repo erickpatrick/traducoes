@@ -16,3 +16,7 @@ Em nossa tentativa de criar um mundo repleto de produtos revolucioários, freque
 
 ### 04. Busque Investimentos
 As melhores características de um produto são aquelas que serão usadas. A melhor maneira de saber se uma característica será usada é levar em consideração se as pessoas já estão investindo naquela área. As pessoas já gastam dinheiro, tempo ou energia tentando resolver esse (tipo de) problema? Esses são indicadores que o problema vale a pena ser resolvido. Se as pessoas dizem que tem um problema mas não estão investindo dinheiro para resolvê-lo, então esse problema não está no topo de suas prioridades. Então, busque investimento antes de criar um produto ou adicionar alguma funcionalidade a um.
+
+### 05. Modele Característica em Artefatos Reais
+Uma maneira de ter certeza que as pessoas investem em um problema é procurar os artefatos usados. Artefatos são objetos do mundo real que as pessoas usam para completar o trabalho. Pense nos *post-it* ao redor de uma tela de computador. Artefatos, geralemente, são *hacks*, como se colocassem fita adesiva em um tela de iPhone para proteger a tela, ou usar o Excel para ajudar a organizar informações. Quando você encontrar um artefato, trate-o como ouro, e pergunte tudo o que puder ao dono. Artefatos traduzem-se, diretamente, em características úteis.
+
