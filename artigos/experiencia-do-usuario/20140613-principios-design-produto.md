@@ -28,3 +28,6 @@ Lançamentos geram expectativas. Tornou-se comum lançar produtos tão rápido q
 
 ### 08. Lance um produto menor, porém, melhor
 É fácil implementar recursos, hoje em dia. Ferramentas de desenvolvimento tornaram a tarefa de adicinar recursos, muito mais fáceis e rápidas. Mas "deformação de recursos" continua a ser um problema. A cada funcionalidade que você adiciona à interface é um problema em potencial, adicionando um fardo ao seus usuários, não importa o tamanho da funcionalidade. Se seu produto é bem focado, ele não tentará fazer muita coisa e você terá de dizer vários nãos para várias possibilidades de recursos.
+
+### 09. Os Últimos 10% são os Piores
+A diferença entre o bom e o ótimo está nos últimos 10%. Todo mundo consegue alcançar os 90%: as mesmas funcionalidades base, preços similares e história similar. Mas, os 10% finais são o grande diferenciador. É a parte que separa você do seus competidores. É o sangue, suor e lágrimas de detalhes. E, provavelmente, tomará 50% do seu tempo. Mas o tempo não é o que você está medindo. Você está medindo a diferença entre o bom e o ótimo.
