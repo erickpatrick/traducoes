@@ -11,4 +11,4 @@ Quem, em sã consciência, quer praticar algo e ser criticado por isso? Encoraja
 
 Os projetistas mais experientes compreendem o desafio de estar apaixonado o suficiente pelo seu trabalho, colocar bastante emoção nele para fazê-lo genuíno e, ainda assim, manter-se distante emocionalmente, sendo capaz de "se separar" do trabalho. Mesmo sendo bastante experiente, algumas críticas podem ser bem difíceis de engolir. Então, por que diabos eu diria para projetistas buscarem isso?
 
-****
+**O processo de entender e lidar com as críticas significativas sobre seu trabalho diminuem o tempo gasto em ater-se às decisões do projeto que levarão a lugar algum, e abrirão portas para conversas construtiva que destacarão soluções específicas e realistas que você talvez não fosse capaz de alcançar por conta própria.**
