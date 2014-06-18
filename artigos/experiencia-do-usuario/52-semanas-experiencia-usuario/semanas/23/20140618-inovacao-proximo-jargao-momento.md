@@ -15,3 +15,6 @@ Isso não é novidade. Como [Michael Beruit disse recentemente](http://observato
 
 Chega de jargões. Chega desse "pensamento inspiracional" repetitivo. Precisamos de lideres que foquem em inspirar, de verdade, as pessoas ao redor dela a fazerem mais que o essencial; precisamos encontrar algo que faça um produto melhor e busca-los feito loucos. Precisamos de alguém que façam escolhas difíceis, removam o peso morto e foquem de verdade no que interessa&ndash;criar produtos que os usuários amem. Para conseguir isso, você precisa encontrar o ponto de interseção entre o que os usuários precisam e o que você faz bem, e focar como um louco para fazer o melhor.
 
+Cada um de nós podemos criar uma longa lista de jargões que escutamos diariamente, mas prefiro desafiar-nos a ir além. Pare de usar jargões. Comece a identificar as áreas mais fracas e decida ser um agente de mudanças. Reacenda sua paixão e faça o melhor para reacender a dos outros. Não tema as conversas dos executivos. Tema a possibilidade de você cair na balela deles e fazer o que pedirem.
+
+É hora de parar de sentirmo-nos culpados por ninguém ouvir o que pensamos e começarmos a fazer o que amamos: criar coisas que mudem as vidas das pessoas, mesmo das menores formas.
