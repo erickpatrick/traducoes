@@ -148,6 +148,7 @@
 
 #### Semana 24 [voltar](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#52-semanas-de-experi%C3%AAncia-do-usu%C3%A1rio)
 - [A Lei de Gall](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/24/20140611-lei-de-gall.md)
+- [Critique-me, por favor!](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/24/20140611-critique-por-favor.md)
 
 #### Semana 25 [voltar](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#52-semanas-de-experi%C3%AAncia-do-usu%C3%A1rio)
 #### Semana 26 [voltar](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#52-semanas-de-experi%C3%AAncia-do-usu%C3%A1rio)
