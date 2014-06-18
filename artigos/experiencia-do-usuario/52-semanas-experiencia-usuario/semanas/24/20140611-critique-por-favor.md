@@ -12,3 +12,7 @@ Quem, em sã consciência, quer praticar algo e ser criticado por isso? Encoraja
 Os projetistas mais experientes compreendem o desafio de estar apaixonado o suficiente pelo seu trabalho, colocar bastante emoção nele para fazê-lo genuíno e, ainda assim, manter-se distante emocionalmente, sendo capaz de "se separar" do trabalho. Mesmo sendo bastante experiente, algumas críticas podem ser bem difíceis de engolir. Então, por que diabos eu diria para projetistas buscarem isso?
 
 **O processo de entender e lidar com as críticas significativas sobre seu trabalho diminuem o tempo gasto em ater-se às decisões do projeto que levarão a lugar algum, e abrirão portas para conversas construtiva que destacarão soluções específicas e realistas que você talvez não fosse capaz de alcançar por conta própria.**
+
+> "*Sem críticas, nossa habilidade de estimar algo diminui. Nós superestimamos nossa genialidade e subestimamos o potencial do nosso design*" &ndash; Paul Scrivens
+
+Assim que você passa a entender e se permite lidar com esse tipo de crítica aberta e honesta do seu trabalho, as qualidades resultantes de ser acessível, humilde e receptivo, levam a uma melhor comunicação, maior criatividade e mais transparência de pensamentos por trás do processo de design.
