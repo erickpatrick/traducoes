@@ -16,3 +16,5 @@ Os projetistas mais experientes compreendem o desafio de estar apaixonado o sufi
 > "*Sem críticas, nossa habilidade de estimar algo diminui. Nós superestimamos nossa genialidade e subestimamos o potencial do nosso design*" &ndash; Paul Scrivens
 
 Assim que você passa a entender e se permite lidar com esse tipo de crítica aberta e honesta do seu trabalho, as qualidades resultantes de ser acessível, humilde e receptivo, levam a uma melhor comunicação, maior criatividade e mais transparência de pensamentos por trás do processo de design.
+
+Não resta dúvidas que todas as empresas e equipes que encoraajam esse tipo de crítica honesta, aumentam, dramaticamente, a qualide e precisão das decisões de design escolhidas para garantir os requerimentos do negócio e que, diversas vezes, vão além. Entretanto, isso leva tempo, honestidade e vontade de descobrir se está errado. E é por isso que Matthew disse, "***Prática** sendo criticada*".
