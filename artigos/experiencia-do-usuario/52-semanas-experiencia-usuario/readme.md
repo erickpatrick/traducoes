@@ -144,6 +144,7 @@
 
 #### Semana 23 [voltar](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#52-semanas-de-experi%C3%AAncia-do-usu%C3%A1rio)
 - [O Erro de Atribuição Fundamental](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/23/20140611-erro-atribuicao-fundamental.md)
+- [Inovação - O Próximo Jargão do Momento](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/23/20140618-inovacao-proximo-jargao-momento.md)
 
 #### Semana 24 [voltar](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#52-semanas-de-experi%C3%AAncia-do-usu%C3%A1rio)
 #### Semana 25 [voltar](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#52-semanas-de-experi%C3%AAncia-do-usu%C3%A1rio)
