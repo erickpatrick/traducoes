@@ -6,3 +6,5 @@ Créditos<br/>
 ![Algum tipo de mapa](http://media.tumblr.com/tumblr_l54dm9hjNj1qz7ace.jpg "Algum tipo de mapa")
 
 A forma como você chega a algum lugar é tão importante quanto a onde você estava indo. Não importa se é um site, uma loja de roupas ou um jantar no meio dos Estados Unidos&ndash;humanos são bastante afetados pelos seus arredores e, para o bem ou para o mal, criam uma conexão emocional com o destino, baseada na jornada que os levou até onde estão.
+
+Imagine-se andando emuma rua que nunca esteve antes e, ao dobrar na esquina, depara-se com uma loja linda ou restaurante maravilhoso. Ou imagine-se clicando em um link em um site que você visita regularmente só para ser levado a outro site que o leva a mais outro site que é repleto de conteúdo sobre aquilo que você mais ama no mundo. Esse momentos acidentais são algo que os bons projetistas levam em conta e usam a seu favor.
