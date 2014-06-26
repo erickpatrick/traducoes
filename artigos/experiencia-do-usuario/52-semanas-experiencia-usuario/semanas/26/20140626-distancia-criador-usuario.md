@@ -16,3 +16,5 @@ Embora bastante genérico, esse princípio é verdadeiro:
 **A distância entre o usuário e o criador é proporcional à dificuldade em criar grandes experiências para o usuário**.
 
 Em outras palavras, quão mais próximos o projetista e o usuário forem, mais fácil é de criar algo. Quando os projetistas observam o uso real das aplicações, o problema aparece rapidamente. Mas, assim que aumenta o "número de paredes" entre esses dois elementos, também aumenta a necessidade de comunicação entre os dois para obter o mesmo efeito. Mesmo que apenas uma pessoa esteja entre o usuário e o projetista, o trabalho desse último se turna duas vezes mais difícil.
+
+Agora, pense com essas "paredes" que temos de lidar. Camadas administrativas. Camadas de vendas. Camadas de suporte. Todas essas camadas adicionam problemas entre o criador e o usuário, reduzindo a comunicação entre eles a um "simples jogo via telefone". Assim que cada parede é erguida, o trabalho do projetista aumenta. E, não só isso, o trabalho de cada pessoa nessa corrente também fica mais difícil.
