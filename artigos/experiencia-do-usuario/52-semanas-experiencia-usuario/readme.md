@@ -152,6 +152,7 @@
 
 #### Semana 25 [voltar](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#52-semanas-de-experi%C3%AAncia-do-usu%C3%A1rio)
 - [Compreendendo a Jornada](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/25/20140622-compreendendo-jornada.md)
+- [Email, A Cola da Experiência do Usuário](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/25/20140626-email-cola-experiencia-usuario.md)
 
 #### Semana 26 [voltar](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#52-semanas-de-experi%C3%AAncia-do-usu%C3%A1rio)
 #### Semana 27 [voltar](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#52-semanas-de-experi%C3%AAncia-do-usu%C3%A1rio)
