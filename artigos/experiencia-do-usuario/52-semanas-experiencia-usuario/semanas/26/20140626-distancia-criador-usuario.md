@@ -8,3 +8,9 @@ Créditos<br/>
 Recentemente, fiz parte de um estudo com testes de usuário no qual observei como as pessoas usavam o software que eu projetei. Em um dado momento, o usuário fez algo que, em teoria, não deveria ter feito, e, no mesmo instante, percebi o problema. O texto que descrevia o que ele deveria fazer estava na tela errada. Ao invés de estar na tela anterior, estava na tela atual.
 
 O problema já existia há um tempo, no aplicativo. Eu já tinha ouvido reclamações sobre esse tipo de coisa acontecendo, mas não tinha sido capaz de reproduzir, fazendo com que a coisa toda não estivesse bem clara para mim. Quando eu vi a pessoa em ação, tudo fez sentido, imediatamente. O simples ato de observar acabou com a situação turva que eu tinha em mãos, deixando tudo claro e simples.
+
+Claro, lembrei que não vinha realizando testes com usuários suficientes. Vinha realizando testes aqui e acolá, mas nada regularmente. Somente quando eu queria descobrir algo em específico. Mas testes regulares provem percepções como essa, permitindo você saber quando algo tão subto está acabando com a experiência do usuário.
+
+Embora bastante genérico, esse princípio é verdadeiro:
+
+**A distância entre o usuário e o criador é proporcional à dificuldade em criar grandes experiências para o usuário**.
