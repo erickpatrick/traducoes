@@ -5,4 +5,6 @@ Créditos<br/>
 
 ![Hipopotamo](http://media.tumblr.com/tumblr_l5ezku7ETW1qz7ace.jpg "Hipopotamo")
 
-Há um caso interessante que acontece nas vidas de profissionais de Experiência do Usuário que trabalham para grandes corporações ao redor do mundo a cada dia. Assim como na natureza, onde o rei da selva rege através do medo, respeito e puro exercício do poder, o mundo dos negócio é, frequentemente, regisdo por uma criatura semelhante &ndash; o HiPPO (Highest Paid Person's Opinion, que em português significa, "A opinião da pessoa mais bem paga").
+Há um caso interessante que acontece nas vidas de profissionais de Experiência do Usuário que trabalham para grandes corporações ao redor do mundo a cada dia. Assim como na natureza, onde o rei da selva rege através do medo, respeito e puro exercício do poder, o mundo dos negócio é, frequentemente, regido por uma criatura semelhante &ndash; o HiPPO (Highest Paid Person's Opinion, que em português significa, "A opinião da pessoa mais bem paga").
+
+O HiPPO é uma força a ser reconhecida, obtendo seu poder dos anos de subidas de ladeiras corporativas, tendo ganho várias batalhas pela pura determinação e intuição. O HiPPO não alcançou seu status sem querer. Eles são esperto, pessoas que se adaptam ao negócio, maduros, experientes e bem sucedidos. Infelizmente, os HiPPOs, frequentemente, tem o menor contato com os usuários e, provavelmente, tem o mínimo de entendimento das necessidades, vontades e expectativas dos usuários.
