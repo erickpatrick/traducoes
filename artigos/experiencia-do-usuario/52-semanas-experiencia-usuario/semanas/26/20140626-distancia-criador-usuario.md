@@ -14,3 +14,5 @@ Claro, lembrei que não vinha realizando testes com usuários suficientes. Vinha
 Embora bastante genérico, esse princípio é verdadeiro:
 
 **A distância entre o usuário e o criador é proporcional à dificuldade em criar grandes experiências para o usuário**.
+
+Em outras palavras, quão mais próximos o projetista e o usuário forem, mais fácil é de criar algo. Quando os projetistas observam o uso real das aplicações, o problema aparece rapidamente. Mas, assim que aumenta o "número de paredes" entre esses dois elementos, também aumenta a necessidade de comunicação entre os dois para obter o mesmo efeito. Mesmo que apenas uma pessoa esteja entre o usuário e o projetista, o trabalho desse último se turna duas vezes mais difícil.
