@@ -159,6 +159,9 @@
 - [Torne o Seu HIPPOpotamo em um Herói da Experiência do Usuário](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/26/20140626-hippo-heroi-experiencia-usuario.md)
 
 #### Semana 27 [voltar](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#52-semanas-de-experi%C3%AAncia-do-usu%C3%A1rio)
+- [Emoção e Dados](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/27/20140626-emocao-dados.md)
+
+#### Semana 27 [voltar](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#52-semanas-de-experi%C3%AAncia-do-usu%C3%A1rio)
 #### Semana 28 [voltar](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#52-semanas-de-experi%C3%AAncia-do-usu%C3%A1rio)
 #### Semana 29 [voltar](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#52-semanas-de-experi%C3%AAncia-do-usu%C3%A1rio)
 #### Semana 30 [voltar](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#52-semanas-de-experi%C3%AAncia-do-usu%C3%A1rio)
