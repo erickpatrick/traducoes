@@ -16,3 +16,5 @@ Nós gostamos do uso das formas e cores primarias porque seus valores básicos s
 Claro, simples e duradouro&ndash;as qualidades fundamentais do design "atemporal". Há um duplo sentido no tom dessa passagem. Ela tanto desafia você quando inspira você a olhar mais alto. Frequentemente, estamos tão afundados nas cavernas do nosso próprio produto e processos que esquecemos que devemos mirar mais alto naquilo que estamos fazendo. Há mais que uma "vitória rápida", mais que uma "compra pelo Google"&ndash;há uma oportunidade de impactar as vidas daqueles que entrem em contato com nosso trabalho. Para melhor ou para pior.
 
 Produzir um produto ou serviço duradouro em um sociedade repleta de coisas "instantâneas" é um dos grandes desafios que enfrentamos enquanto projetistas. Isso requer que resitamos ao caminho mais fácil, escolhendo entrar em guerra com a mediocridade, irrelevância e indiferença.
+
+Criar valores duradouros não acontece por acaso. É a aplicação intencional do design consciente para pessoas de verdade.
