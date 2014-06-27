@@ -1,5 +1,5 @@
 Emoção e Dados
-=============================================================
+==============
 Créditos<br/>
 <small>Autor original: [Joshua Porter](http://52weeksofux.com/)<br/>[Artigo Original](http://52weeksofux.com/post/832646573/emotion-and-data)</small>
 
