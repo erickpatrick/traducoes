@@ -10,3 +10,7 @@ Há inúmeras métricas por aí que podemos usar para verificarmos o quão posit
 Eis uma métrica mais simples, porém, tão interessante quanto, que, talvez, você queira medir:
 
 **Quanto tempo leva para um novo usuário/cliente sentir-se encantado pelo seu novo produto ous erviço?**
+
+Isso parece algo bem estranho de se medir, mas, vejamos o porque isso é valioso. O quão mais rápido você puder encatar alguém, mais rápida será a construção da relação entre você e ele, e, assim, mais oportunidades você terá para manter esse relacionamento. Se você não tem encantado as pessoas logo, é menos provável que elas continuem com você.
+
+Eis alguns pontos que talvez queira media:
