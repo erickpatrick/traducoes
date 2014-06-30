@@ -19,3 +19,7 @@ Eis alguns pontos que talvez queira media:
 - **Tempo do primeiro sorriso** - Se você interage cara-a-cara com as pessoas, quanto tempo leva para que elas sorriam para você?
 - **Tempo para compartilhar** - Se você tem uma funcionalidade de compartilhamento, as pessoas a tem usado? Ela tem compartilhado através das mídias sociais diretamente ou boca-a-boca? Elas estão comaprtilhando?
 - **Tempo para criar e salvar** - Quanto tempo leva para alguém salvar algo que você permitiu que elas criassem?
+
+Essa são somente algumas ideias. Seu produto ou serviço terá oportunidades únicas para encantar. Procure pelos momentos que as pessoas ficam felizes, não somente pelo quão frequente elas usam ou quanto tempo que elas gastam.
+
+De modo que nosso trabalho se torna mais relacionado à emoção e menos à usabilidade, o tempo para encantar as pessoas torna-se uma métrica de bastante sentido. O mais rápido que conseguirmos o primeiro encanto, mais rápido poderemos reencanta-las.
