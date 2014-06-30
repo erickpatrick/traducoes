@@ -8,3 +8,5 @@ Créditos<br/>
 Ah, os wireframes. O pão com manteiga dos projetistas de ExU. O melhor amigo do arquiteto da informação. E, possívelmente, a maldição de nossa existência. Tudo depende de como você o vê.
 
 Os wireframes são uma ferramenta indispensável para o *design thinking*&ndash;um bloco de anotações digital&ndash;pronto para ser desenhado e apagado, rabiscado ou ressucitado a qualquer momento. Uma documentação em desenvolvimento, usada para estabelecer a linguagem, conteúdo e estrutura das interações que os usuários terão com o produto. Eles são uma parte fundamental do processo de design e variam em fidelidade, dependendo do quão dogmática suas crenças são em relação ao seus ojetivos.
+
+A comunidade de ExU está dividida quanto a esse ponto. Há aqueles que defenderão o wireframe de baixa fidelidade até a morte, amaldiçoando os de alta qualidade como meros apetrechos visuais e detalhamento prematura, além de enfatizar a importância do "design" misturado com a Arquitetura da Informação e funcionalidade nesse estágio.
