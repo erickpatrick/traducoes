@@ -168,6 +168,7 @@
 
 #### Semana 29 [voltar](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#52-semanas-de-experi%C3%AAncia-do-usu%C3%A1rio)
 - [StartUXs](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/29/20140702-startuxs.md)
+- [Os 5 Ws da Experiência do Usuário](https://github.com/erickpatrick/traducoes/blob/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario/semanas/29/20140723-5-ws-experiencia-usuario.md)
 
 #### Semana 30 [voltar](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#52-semanas-de-experi%C3%AAncia-do-usu%C3%A1rio)
 #### Semana 31 [voltar](https://github.com/erickpatrick/traducoes/tree/master/artigos/experiencia-do-usuario/52-semanas-experiencia-usuario#52-semanas-de-experi%C3%AAncia-do-usu%C3%A1rio)
